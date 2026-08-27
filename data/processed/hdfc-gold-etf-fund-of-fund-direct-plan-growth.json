@@ -1,0 +1,57 @@
+{
+  "scheme_id": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+  "scheme_name": "HDFC Gold ETF Fund of Fund Direct Plan Growth",
+  "category": "Gold / FoF",
+  "amc": "HDFC Mutual Fund",
+  "source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+  "source_domain": "groww.in",
+  "document_type": "groww_scheme_page",
+  "document_date": "2026-08-26",
+  "ingested_at": "2026-08-27T14:57:15+00:00",
+  "content_hash": "sha256:5d170d549d629be8e9a20184d21cce509f443ab206fb474d4e2cc9e6898aaf5b",
+  "facts": {
+    "expense_ratio": "0.2%",
+    "exit_load": "Exit load of 1%, if redeemed within 15 days.",
+    "min_sip": "₹100",
+    "riskometer": "High",
+    "benchmark": "Domestic Price of Gold",
+    "lock_in": null
+  },
+  "missing_facts": [
+    "lock_in"
+  ],
+  "sections": [
+    {
+      "page_or_section": "Expense Ratio",
+      "fact_key": "expense_ratio",
+      "text": "The expense ratio of HDFC Gold ETF Fund of Fund Direct Plan Growth is 0.2% as shown on the Groww scheme page."
+    },
+    {
+      "page_or_section": "Exit Load",
+      "fact_key": "exit_load",
+      "text": "Exit load for HDFC Gold ETF Fund of Fund Direct Plan Growth: Exit load of 1%, if redeemed within 15 days.."
+    },
+    {
+      "page_or_section": "Minimum SIP",
+      "fact_key": "min_sip",
+      "text": "The minimum SIP amount for HDFC Gold ETF Fund of Fund Direct Plan Growth is ₹100."
+    },
+    {
+      "page_or_section": "Riskometer",
+      "fact_key": "riskometer",
+      "text": "The riskometer / risk level for HDFC Gold ETF Fund of Fund Direct Plan Growth is High."
+    },
+    {
+      "page_or_section": "Benchmark",
+      "fact_key": "benchmark",
+      "text": "The fund benchmark for HDFC Gold ETF Fund of Fund Direct Plan Growth is Domestic Price of Gold."
+    },
+    {
+      "page_or_section": "Investment Objective",
+      "fact_key": "investment_objective",
+      "text": "Investment objective of HDFC Gold ETF Fund of Fund Direct Plan Growth: The Scheme seeks to generate capital appreciation by investing in units of HDFC Gold Exchange Traded Fund."
+    }
+  ],
+  "normalized_text": "HDFC Gold ETF Fund of Fund Direct Plan Growth\n\nExpense ratio: 0.2%\nExit load: Exit load of 1%, if redeemed within 15 days.\nMinimum SIP: ₹100\nRiskometer: High\nBenchmark: Domestic Price of Gold\n\nInvestment objective: The Scheme seeks to generate capital appreciation by investing in units of HDFC Gold Exchange Traded Fund.\n\nThe expense ratio of HDFC Gold ETF Fund of Fund Direct Plan Growth is 0.2% as shown on the Groww scheme page.\nExit load for HDFC Gold ETF Fund of Fund Direct Plan Growth: Exit load of 1%, if redeemed within 15 days..\nThe minimum SIP amount for HDFC Gold ETF Fund of Fund Direct Plan Growth is ₹100.\nThe riskometer / risk level for HDFC Gold ETF Fund of Fund Direct Plan Growth is High.\nThe fund benchmark for HDFC Gold ETF Fund of Fund Direct Plan Growth is Domestic Price of Gold.\nInvestment objective of HDFC Gold ETF Fund of Fund Direct Plan Growth: The Scheme seeks to generate capital appreciation by investing in units of HDFC Gold Exchange Traded Fund.",
+  "parse_source": "next_data"
+}

@@ -1,0 +1,57 @@
+{
+  "scheme_id": "hdfc-mid-cap-fund-direct-growth",
+  "scheme_name": "HDFC Mid Cap Fund Direct Growth",
+  "category": "Mid-cap",
+  "amc": "HDFC Mutual Fund",
+  "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+  "source_domain": "groww.in",
+  "document_type": "groww_scheme_page",
+  "document_date": "2026-08-26",
+  "ingested_at": "2026-08-27T14:57:12+00:00",
+  "content_hash": "sha256:83bec919c0078d29ddb900f8cde2e3790c75d299479704bd08478a7a8ba0904b",
+  "facts": {
+    "expense_ratio": "0.74%",
+    "exit_load": "Exit load of 1% if redeemed within 1 year.",
+    "min_sip": "₹100",
+    "riskometer": "Very High",
+    "benchmark": "NIFTY Midcap 150 Total Return Index",
+    "lock_in": null
+  },
+  "missing_facts": [
+    "lock_in"
+  ],
+  "sections": [
+    {
+      "page_or_section": "Expense Ratio",
+      "fact_key": "expense_ratio",
+      "text": "The expense ratio of HDFC Mid Cap Fund Direct Growth is 0.74% as shown on the Groww scheme page."
+    },
+    {
+      "page_or_section": "Exit Load",
+      "fact_key": "exit_load",
+      "text": "Exit load for HDFC Mid Cap Fund Direct Growth: Exit load of 1% if redeemed within 1 year.."
+    },
+    {
+      "page_or_section": "Minimum SIP",
+      "fact_key": "min_sip",
+      "text": "The minimum SIP amount for HDFC Mid Cap Fund Direct Growth is ₹100."
+    },
+    {
+      "page_or_section": "Riskometer",
+      "fact_key": "riskometer",
+      "text": "The riskometer / risk level for HDFC Mid Cap Fund Direct Growth is Very High."
+    },
+    {
+      "page_or_section": "Benchmark",
+      "fact_key": "benchmark",
+      "text": "The fund benchmark for HDFC Mid Cap Fund Direct Growth is NIFTY Midcap 150 Total Return Index."
+    },
+    {
+      "page_or_section": "Investment Objective",
+      "fact_key": "investment_objective",
+      "text": "Investment objective of HDFC Mid Cap Fund Direct Growth: The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Mid-Cap companies."
+    }
+  ],
+  "normalized_text": "HDFC Mid Cap Fund Direct Growth\n\nExpense ratio: 0.74%\nExit load: Exit load of 1% if redeemed within 1 year.\nMinimum SIP: ₹100\nRiskometer: Very High\nBenchmark: NIFTY Midcap 150 Total Return Index\n\nInvestment objective: The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Mid-Cap companies.\n\nThe expense ratio of HDFC Mid Cap Fund Direct Growth is 0.74% as shown on the Groww scheme page.\nExit load for HDFC Mid Cap Fund Direct Growth: Exit load of 1% if redeemed within 1 year..\nThe minimum SIP amount for HDFC Mid Cap Fund Direct Growth is ₹100.\nThe riskometer / risk level for HDFC Mid Cap Fund Direct Growth is Very High.\nThe fund benchmark for HDFC Mid Cap Fund Direct Growth is NIFTY Midcap 150 Total Return Index.\nInvestment objective of HDFC Mid Cap Fund Direct Growth: The scheme seeks to provide long-term capital appreciation/income by investing predominantly in Mid-Cap companies.",
+  "parse_source": "next_data"
+}

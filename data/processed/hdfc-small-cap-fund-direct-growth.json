@@ -1,0 +1,57 @@
+{
+  "scheme_id": "hdfc-small-cap-fund-direct-growth",
+  "scheme_name": "HDFC Small Cap Fund Direct Growth",
+  "category": "Small-cap",
+  "amc": "HDFC Mutual Fund",
+  "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+  "source_domain": "groww.in",
+  "document_type": "groww_scheme_page",
+  "document_date": "2026-08-26",
+  "ingested_at": "2026-08-27T14:57:13+00:00",
+  "content_hash": "sha256:3024b6201373bec8861c0e6c617b2e73bad28be851c9ff37dbbb5d39de403e77",
+  "facts": {
+    "expense_ratio": "0.75%",
+    "exit_load": "Exit load of 1% if redeemed within 1 year",
+    "min_sip": "₹100",
+    "riskometer": "Very High",
+    "benchmark": "BSE 250 SmallCap Total Return Index",
+    "lock_in": null
+  },
+  "missing_facts": [
+    "lock_in"
+  ],
+  "sections": [
+    {
+      "page_or_section": "Expense Ratio",
+      "fact_key": "expense_ratio",
+      "text": "The expense ratio of HDFC Small Cap Fund Direct Growth is 0.75% as shown on the Groww scheme page."
+    },
+    {
+      "page_or_section": "Exit Load",
+      "fact_key": "exit_load",
+      "text": "Exit load for HDFC Small Cap Fund Direct Growth: Exit load of 1% if redeemed within 1 year."
+    },
+    {
+      "page_or_section": "Minimum SIP",
+      "fact_key": "min_sip",
+      "text": "The minimum SIP amount for HDFC Small Cap Fund Direct Growth is ₹100."
+    },
+    {
+      "page_or_section": "Riskometer",
+      "fact_key": "riskometer",
+      "text": "The riskometer / risk level for HDFC Small Cap Fund Direct Growth is Very High."
+    },
+    {
+      "page_or_section": "Benchmark",
+      "fact_key": "benchmark",
+      "text": "The fund benchmark for HDFC Small Cap Fund Direct Growth is BSE 250 SmallCap Total Return Index."
+    },
+    {
+      "page_or_section": "Investment Objective",
+      "fact_key": "investment_objective",
+      "text": "Investment objective of HDFC Small Cap Fund Direct Growth: The scheme seeks to provide long-term capital appreciation /income by investing predominantly in Small-Cap companies."
+    }
+  ],
+  "normalized_text": "HDFC Small Cap Fund Direct Growth\n\nExpense ratio: 0.75%\nExit load: Exit load of 1% if redeemed within 1 year\nMinimum SIP: ₹100\nRiskometer: Very High\nBenchmark: BSE 250 SmallCap Total Return Index\n\nInvestment objective: The scheme seeks to provide long-term capital appreciation /income by investing predominantly in Small-Cap companies.\n\nThe expense ratio of HDFC Small Cap Fund Direct Growth is 0.75% as shown on the Groww scheme page.\nExit load for HDFC Small Cap Fund Direct Growth: Exit load of 1% if redeemed within 1 year.\nThe minimum SIP amount for HDFC Small Cap Fund Direct Growth is ₹100.\nThe riskometer / risk level for HDFC Small Cap Fund Direct Growth is Very High.\nThe fund benchmark for HDFC Small Cap Fund Direct Growth is BSE 250 SmallCap Total Return Index.\nInvestment objective of HDFC Small Cap Fund Direct Growth: The scheme seeks to provide long-term capital appreciation /income by investing predominantly in Small-Cap companies.",
+  "parse_source": "next_data"
+}

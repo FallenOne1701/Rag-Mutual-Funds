@@ -1,0 +1,35 @@
+# Secrets
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Raw Groww HTML is re-fetched every run — never tracked
+data/raw/*
+!data/raw/.gitkeep
+
+# The processed corpus and the Chroma index ARE tracked: the daily refresh
+# workflow opens a pull request against them so a changed fact is reviewable.
+data/chroma/
+
+# Frontend
+node_modules/
+frontend/dist/
+frontend/.env
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

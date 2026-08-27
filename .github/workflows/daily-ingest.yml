@@ -1,0 +1,120 @@
+name: Daily corpus refresh
+
+# Re-runs the offline ingestion path so the "Last updated from sources:" footer
+# stays honest: Document Fetcher -> Parser & Normalizer -> Chunker ->
+# Embedding Service -> Vector Store. The online query path is not involved, so
+# this job makes zero Groq calls and needs no GROQ_API_KEY.
+
+on:
+  schedule:
+    # 04:30 UTC = 10:00 IST. GitHub runs scheduled jobs on a best-effort basis,
+    # so expect drift of a few minutes under load.
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+# Two ingests writing data/index/ concurrently would corrupt Chroma.
+concurrency:
+  group: daily-ingest
+  cancel-in-progress: false
+
+env:
+  PYTHON_VERSION: "3.11"
+  REFRESH_BRANCH: corpus-refresh
+
+jobs:
+  refresh:
+    name: Fetch, parse, chunk, embed, index
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: pip
+
+      # Keeps BAAI/bge-small-en-v1.5 off the network on most nights. The key is
+      # pinned to the model name in settings.py so a model change busts it.
+      - name: Cache the embedding model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-bge-small-en-v1.5-${{ runner.os }}
+          restore-keys: hf-bge-small-en-v1.5-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # data/raw/ is not tracked, so the fetcher always writes fresh HTML. The
+      # tracked processed docs and Chroma index make this an update (dedupe by
+      # content_hash, upsert by chunk_id) rather than a cold rebuild.
+      - name: Rebuild the corpus
+        run: python scripts/ingest.py --full
+
+      - name: Verify the refreshed corpus
+        run: |
+          python scripts/verify_corpus.py --summary-file "$GITHUB_STEP_SUMMARY"
+
+      # Runs even on failure: the reports are how you tell a Groww block page
+      # from a parser regression.
+      - name: Upload ingest reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ingest-reports
+          path: |
+            data/ingest_report.json
+            data/raw/fetch_report.json
+            data/processed/parse_report.json
+            data/processed/chunk_report.json
+            data/index/index_report.json
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Check for corpus changes
+        id: diff
+        run: |
+          git add -A data/processed data/index
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No change since the last refresh — the sources are unchanged."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --cached --stat | tee /tmp/corpus-diff.txt
+          fi
+
+      # A changed expense ratio should be reviewable, so the refresh lands as a
+      # pull request. If it fails or is never merged, the previous verified
+      # corpus simply stays in place.
+      - name: Open or update the refresh pull request
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -C "$REFRESH_BRANCH"
+          git commit -m "chore(corpus): daily Groww refresh $(date -u +%Y-%m-%d)"
+          git push --force-with-lease origin "$REFRESH_BRANCH"
+
+          pr="$(gh pr list --head "$REFRESH_BRANCH" --state open --json number --jq '.[0].number // empty')"
+          if [ -z "$pr" ]; then
+            gh pr create \
+              --head "$REFRESH_BRANCH" \
+              --base "${{ github.ref_name }}" \
+              --title "chore(corpus): daily Groww refresh $(date -u +%Y-%m-%d)" \
+              --body-file "$GITHUB_STEP_SUMMARY"
+          else
+            gh pr comment "$pr" --body-file "$GITHUB_STEP_SUMMARY"
+          fi

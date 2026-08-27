@@ -1,0 +1,277 @@
+{
+  "ingested_at": "2026-08-27T14:59:01+00:00",
+  "stages": [
+    "fetch",
+    "parse",
+    "chunk",
+    "index"
+  ],
+  "all_ok": true,
+  "exit_code": 0,
+  "disclaimer": "Facts-only. No investment advice.",
+  "reports": {
+    "fetch": {
+      "fetched_at": "2026-08-27T14:57:11+00:00",
+      "raw_dir": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw",
+      "expected_scheme_count": 5,
+      "ok_count": 5,
+      "error_count": 0,
+      "all_ok": true,
+      "results": [
+        {
+          "scheme_id": "hdfc-mid-cap-fund-direct-growth",
+          "scheme_name": "HDFC Mid Cap Fund Direct Growth",
+          "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
+          "status": "ok",
+          "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-mid-cap-fund-direct-growth.html",
+          "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-mid-cap-fund-direct-growth.meta.json",
+          "content_hash": "sha256:83bec919c0078d29ddb900f8cde2e3790c75d299479704bd08478a7a8ba0904b",
+          "byte_length": 418243,
+          "http_status": 200,
+          "fetched_at": "2026-08-27T14:57:12+00:00",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-small-cap-fund-direct-growth",
+          "scheme_name": "HDFC Small Cap Fund Direct Growth",
+          "source_url": "https://groww.in/mutual-funds/hdfc-small-cap-fund-direct-growth",
+          "status": "ok",
+          "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-small-cap-fund-direct-growth.html",
+          "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-small-cap-fund-direct-growth.meta.json",
+          "content_hash": "sha256:3024b6201373bec8861c0e6c617b2e73bad28be851c9ff37dbbb5d39de403e77",
+          "byte_length": 425625,
+          "http_status": 200,
+          "fetched_at": "2026-08-27T14:57:13+00:00",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+          "scheme_name": "HDFC Gold ETF Fund of Fund Direct Plan Growth",
+          "source_url": "https://groww.in/mutual-funds/hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+          "status": "ok",
+          "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-gold-etf-fund-of-fund-direct-plan-growth.html",
+          "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-gold-etf-fund-of-fund-direct-plan-growth.meta.json",
+          "content_hash": "sha256:5d170d549d629be8e9a20184d21cce509f443ab206fb474d4e2cc9e6898aaf5b",
+          "byte_length": 316159,
+          "http_status": 200,
+          "fetched_at": "2026-08-27T14:57:15+00:00",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-large-cap-fund-direct-growth",
+          "scheme_name": "HDFC Large Cap Fund Direct Growth",
+          "source_url": "https://groww.in/mutual-funds/hdfc-large-cap-fund-direct-growth",
+          "status": "ok",
+          "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-large-cap-fund-direct-growth.html",
+          "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-large-cap-fund-direct-growth.meta.json",
+          "content_hash": "sha256:4e1322167f5b3c9713cf1047fdb90dd5d93476861fd5e9c5e6d7b94ccf81b982",
+          "byte_length": 412146,
+          "http_status": 200,
+          "fetched_at": "2026-08-27T14:57:16+00:00",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+          "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+          "source_url": "https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth",
+          "status": "ok",
+          "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-elss-tax-saver-fund-direct-plan-growth.html",
+          "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-elss-tax-saver-fund-direct-plan-growth.meta.json",
+          "content_hash": "sha256:ef37c972eafaa8b827c226c38189b59339d5b55df68f0c5121c96bf959b7320f",
+          "byte_length": 402518,
+          "http_status": 200,
+          "fetched_at": "2026-08-27T14:57:17+00:00",
+          "error": null
+        }
+      ]
+    },
+    "parse": {
+      "parsed_at": "2026-08-27T14:57:17+00:00",
+      "processed_dir": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed",
+      "expected_scheme_count": 5,
+      "ok_count": 5,
+      "error_count": 0,
+      "all_ok": true,
+      "results": [
+        {
+          "scheme_id": "hdfc-mid-cap-fund-direct-growth",
+          "scheme_name": "HDFC Mid Cap Fund Direct Growth",
+          "status": "ok",
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\hdfc-mid-cap-fund-direct-growth.json",
+          "missing_facts": [
+            "lock_in"
+          ],
+          "document_date": "2026-08-26",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-small-cap-fund-direct-growth",
+          "scheme_name": "HDFC Small Cap Fund Direct Growth",
+          "status": "ok",
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\hdfc-small-cap-fund-direct-growth.json",
+          "missing_facts": [
+            "lock_in"
+          ],
+          "document_date": "2026-08-26",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+          "scheme_name": "HDFC Gold ETF Fund of Fund Direct Plan Growth",
+          "status": "ok",
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\hdfc-gold-etf-fund-of-fund-direct-plan-growth.json",
+          "missing_facts": [
+            "lock_in"
+          ],
+          "document_date": "2026-08-26",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-large-cap-fund-direct-growth",
+          "scheme_name": "HDFC Large Cap Fund Direct Growth",
+          "status": "ok",
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\hdfc-large-cap-fund-direct-growth.json",
+          "missing_facts": [
+            "lock_in"
+          ],
+          "document_date": "2026-08-26",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+          "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+          "status": "ok",
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\hdfc-elss-tax-saver-fund-direct-plan-growth.json",
+          "missing_facts": [],
+          "document_date": "2026-08-26",
+          "error": null
+        }
+      ]
+    },
+    "chunk": {
+      "chunked_at": "2026-08-27T14:57:22+00:00",
+      "processed_dir": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed",
+      "chunks_dir": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks",
+      "expected_scheme_count": 5,
+      "ok_count": 5,
+      "error_count": 0,
+      "total_chunks": 31,
+      "all_ok": true,
+      "results": [
+        {
+          "scheme_id": "hdfc-mid-cap-fund-direct-growth",
+          "scheme_name": "HDFC Mid Cap Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-mid-cap-fund-direct-growth.json",
+          "skipped_missing": [
+            "lock_in"
+          ],
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-small-cap-fund-direct-growth",
+          "scheme_name": "HDFC Small Cap Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-small-cap-fund-direct-growth.json",
+          "skipped_missing": [
+            "lock_in"
+          ],
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+          "scheme_name": "HDFC Gold ETF Fund of Fund Direct Plan Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-gold-etf-fund-of-fund-direct-plan-growth.json",
+          "skipped_missing": [
+            "lock_in"
+          ],
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-large-cap-fund-direct-growth",
+          "scheme_name": "HDFC Large Cap Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-large-cap-fund-direct-growth.json",
+          "skipped_missing": [
+            "lock_in"
+          ],
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+          "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+          "status": "ok",
+          "chunk_count": 7,
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-elss-tax-saver-fund-direct-plan-growth.json",
+          "skipped_missing": [],
+          "error": null
+        }
+      ]
+    },
+    "index": {
+      "indexed_at": "2026-08-27T14:57:22+00:00",
+      "index_dir": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\index",
+      "collection_name": "mf_faq_chunks",
+      "embedding_model": "BAAI/bge-small-en-v1.5",
+      "expected_scheme_count": 5,
+      "ok_count": 5,
+      "error_count": 0,
+      "total_chunks": 31,
+      "upserted": 31,
+      "all_ok": true,
+      "error": null,
+      "results": [
+        {
+          "scheme_id": "hdfc-mid-cap-fund-direct-growth",
+          "scheme_name": "HDFC Mid Cap Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-small-cap-fund-direct-growth",
+          "scheme_name": "HDFC Small Cap Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-gold-etf-fund-of-fund-direct-plan-growth",
+          "scheme_name": "HDFC Gold ETF Fund of Fund Direct Plan Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-large-cap-fund-direct-growth",
+          "scheme_name": "HDFC Large Cap Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-elss-tax-saver-fund-direct-plan-growth",
+          "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
+          "status": "ok",
+          "chunk_count": 7,
+          "error": null
+        }
+      ]
+    }
+  },
+  "headline": {
+    "schemes_fetched": "5/5",
+    "schemes_parsed": "5/5",
+    "schemes_chunked": "5/5",
+    "total_chunks": 31,
+    "schemes_indexed": "5/5",
+    "vectors_upserted": 31,
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "collection": "mf_faq_chunks"
+  }
+}

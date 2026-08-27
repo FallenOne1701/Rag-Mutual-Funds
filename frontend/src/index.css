@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --c-background: #fafafa;
+    --c-surface: #ffffff;
+    --c-surface-container: #f1f4f3;
+    --c-surface-container-high: #e5e9e7;
+    --c-on-surface: #181c1c;
+    --c-on-surface-variant: #334155;
+    --c-outline: #94a3a1;
+    --c-outline-variant: #e2e8f0;
+    --c-primary: #0f766e;
+    --c-on-primary: #ffffff;
+    --c-primary-container: #d6f2ee;
+    --c-on-primary-container: #00423d;
+    --c-primary-accent: #0f766e;
+    --c-secondary: #515f74;
+    --c-on-secondary: #ffffff;
+    --c-secondary-container: #eef1f5;
+    --c-on-secondary-container: #3a485c;
+    --c-warning-surface: #fdf6e7;
+    --c-warning-accent: #d97706;
+    --c-warning-text: #7c4a03;
+    --c-error: #ba1a1a;
+    --c-error-surface: #ffdad6;
+  }
+
+  .dark {
+    --c-background: #101414;
+    --c-surface: #181c1c;
+    --c-surface-container: #232828;
+    --c-surface-container-high: #2a2f2f;
+    --c-on-surface: #e6eae9;
+    --c-on-surface-variant: #c2cbc9;
+    --c-outline: #6e7977;
+    --c-outline-variant: #334744;
+    --c-primary: #0f766e;
+    --c-on-primary: #ffffff;
+    --c-primary-container: #17403c;
+    --c-on-primary-container: #a3faef;
+    --c-primary-accent: #80d5cb;
+    --c-secondary: #515f74;
+    --c-on-secondary: #ffffff;
+    --c-secondary-container: #262c33;
+    --c-on-secondary-container: #b9c7e0;
+    --c-warning-surface: #2a2317;
+    --c-warning-accent: #ffb598;
+    --c-warning-text: #f0d9c6;
+    --c-error: #ffb4ab;
+    --c-error-surface: #3a1512;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-background text-on-surface-variant font-sans text-body-md antialiased;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-primary-accent ring-offset-2;
+    --tw-ring-offset-color: var(--c-background);
+  }
+}
+
+@layer utilities {
+  .scrollbar-slim::-webkit-scrollbar {
+    width: 6px;
+  }
+  .scrollbar-slim::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .scrollbar-slim::-webkit-scrollbar-thumb {
+    background-color: var(--c-outline);
+    border-radius: 20px;
+  }
+}
