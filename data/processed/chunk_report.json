@@ -1,7 +1,7 @@
 {
-  "chunked_at": "2026-08-27T14:57:22+00:00",
-  "processed_dir": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed",
-  "chunks_dir": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks",
+  "chunked_at": "2026-08-28T16:51:03+00:00",
+  "processed_dir": "/home/runner/work/Rag-Mutual-Funds/Rag-Mutual-Funds/data/processed",
+  "chunks_dir": "/home/runner/work/Rag-Mutual-Funds/Rag-Mutual-Funds/data/processed/chunks",
   "expected_scheme_count": 5,
   "ok_count": 5,
   "error_count": 0,
@@ -13,7 +13,7 @@
       "scheme_name": "HDFC Mid Cap Fund Direct Growth",
       "status": "ok",
       "chunk_count": 6,
-      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-mid-cap-fund-direct-growth.json",
+      "output_path": "/home/runner/work/Rag-Mutual-Funds/Rag-Mutual-Funds/data/processed/chunks/hdfc-mid-cap-fund-direct-growth.json",
       "skipped_missing": [
         "lock_in"
       ],
@@ -24,7 +24,7 @@
       "scheme_name": "HDFC Small Cap Fund Direct Growth",
       "status": "ok",
       "chunk_count": 6,
-      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-small-cap-fund-direct-growth.json",
+      "output_path": "/home/runner/work/Rag-Mutual-Funds/Rag-Mutual-Funds/data/processed/chunks/hdfc-small-cap-fund-direct-growth.json",
       "skipped_missing": [
         "lock_in"
       ],
@@ -35,7 +35,7 @@
       "scheme_name": "HDFC Gold ETF Fund of Fund Direct Plan Growth",
       "status": "ok",
       "chunk_count": 6,
-      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-gold-etf-fund-of-fund-direct-plan-growth.json",
+      "output_path": "/home/runner/work/Rag-Mutual-Funds/Rag-Mutual-Funds/data/processed/chunks/hdfc-gold-etf-fund-of-fund-direct-plan-growth.json",
       "skipped_missing": [
         "lock_in"
       ],
@@ -46,7 +46,7 @@
       "scheme_name": "HDFC Large Cap Fund Direct Growth",
       "status": "ok",
       "chunk_count": 6,
-      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-large-cap-fund-direct-growth.json",
+      "output_path": "/home/runner/work/Rag-Mutual-Funds/Rag-Mutual-Funds/data/processed/chunks/hdfc-large-cap-fund-direct-growth.json",
       "skipped_missing": [
         "lock_in"
       ],
@@ -57,7 +57,7 @@
       "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
       "status": "ok",
       "chunk_count": 7,
-      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-elss-tax-saver-fund-direct-plan-growth.json",
+      "output_path": "/home/runner/work/Rag-Mutual-Funds/Rag-Mutual-Funds/data/processed/chunks/hdfc-elss-tax-saver-fund-direct-plan-growth.json",
       "skipped_missing": [],
       "error": null
     }
