@@ -106,6 +106,9 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git switch -C "$REFRESH_BRANCH"
           git commit -m "chore(corpus): daily Groww refresh $(date -u +%Y-%m-%d)"
+          # actions/checkout only fetches the default branch; fetch the refresh
+          # branch so --force-with-lease has an up-to-date remote ref.
+          git fetch origin "$REFRESH_BRANCH" || true
           git push --force-with-lease origin "$REFRESH_BRANCH"
 
           pr="$(gh pr list --head "$REFRESH_BRANCH" --state open --json number --jq '.[0].number // empty')"
