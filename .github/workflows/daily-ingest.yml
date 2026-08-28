@@ -63,7 +63,8 @@ jobs:
 
       - name: Verify the refreshed corpus
         run: |
-          python scripts/verify_corpus.py --summary-file "$GITHUB_STEP_SUMMARY"
+          python scripts/verify_corpus.py --summary-file "$RUNNER_TEMP/corpus-summary.md"
+          cat "$RUNNER_TEMP/corpus-summary.md" >> "$GITHUB_STEP_SUMMARY"
 
       # Runs even on failure: the reports are how you tell a Groww block page
       # from a parser regression.
@@ -117,7 +118,7 @@ jobs:
               --head "$REFRESH_BRANCH" \
               --base "${{ github.ref_name }}" \
               --title "chore(corpus): daily Groww refresh $(date -u +%Y-%m-%d)" \
-              --body-file "$GITHUB_STEP_SUMMARY"
+              --body-file "$RUNNER_TEMP/corpus-summary.md"
           else
-            gh pr comment "$pr" --body-file "$GITHUB_STEP_SUMMARY"
+            gh pr comment "$pr" --body-file "$RUNNER_TEMP/corpus-summary.md"
           fi
