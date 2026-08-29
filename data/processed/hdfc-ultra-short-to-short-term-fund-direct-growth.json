@@ -1,0 +1,57 @@
+{
+  "scheme_id": "hdfc-ultra-short-to-short-term-fund-direct-growth",
+  "scheme_name": "HDFC Ultra Short to Short Term Fund Direct Growth",
+  "category": "Low Duration / Debt",
+  "amc": "HDFC Mutual Fund",
+  "source_url": "https://groww.in/mutual-funds/hdfc-ultra-short-to-short-term-fund-direct-growth",
+  "source_domain": "groww.in",
+  "document_type": "groww_scheme_page",
+  "document_date": "2026-08-28",
+  "ingested_at": "2026-08-29T06:57:04+00:00",
+  "content_hash": "sha256:346fc71f7646ff331dbabfb9e1d73d13b5991d983ebd354dfd9abf9768137e6a",
+  "facts": {
+    "expense_ratio": "0.46%",
+    "exit_load": "Nil",
+    "min_sip": "₹100",
+    "riskometer": "Moderate",
+    "benchmark": "NIFTY Low Duration Debt Index A-I",
+    "lock_in": null
+  },
+  "missing_facts": [
+    "lock_in"
+  ],
+  "sections": [
+    {
+      "page_or_section": "Expense Ratio",
+      "fact_key": "expense_ratio",
+      "text": "The expense ratio of HDFC Ultra Short to Short Term Fund Direct Growth is 0.46% as shown on the Groww scheme page."
+    },
+    {
+      "page_or_section": "Exit Load",
+      "fact_key": "exit_load",
+      "text": "Exit load for HDFC Ultra Short to Short Term Fund Direct Growth: Nil."
+    },
+    {
+      "page_or_section": "Minimum SIP",
+      "fact_key": "min_sip",
+      "text": "The minimum SIP amount for HDFC Ultra Short to Short Term Fund Direct Growth is ₹100."
+    },
+    {
+      "page_or_section": "Riskometer",
+      "fact_key": "riskometer",
+      "text": "The riskometer / risk level for HDFC Ultra Short to Short Term Fund Direct Growth is Moderate."
+    },
+    {
+      "page_or_section": "Benchmark",
+      "fact_key": "benchmark",
+      "text": "The fund benchmark for HDFC Ultra Short to Short Term Fund Direct Growth is NIFTY Low Duration Debt Index A-I."
+    },
+    {
+      "page_or_section": "Investment Objective",
+      "fact_key": "investment_objective",
+      "text": "Investment objective of HDFC Ultra Short to Short Term Fund Direct Growth: The scheme seeks to generate income / capital appreciation through investment in debt securities and money market instruments."
+    }
+  ],
+  "normalized_text": "HDFC Ultra Short to Short Term Fund Direct Growth\n\nExpense ratio: 0.46%\nExit load: Nil\nMinimum SIP: ₹100\nRiskometer: Moderate\nBenchmark: NIFTY Low Duration Debt Index A-I\n\nInvestment objective: The scheme seeks to generate income / capital appreciation through investment in debt securities and money market instruments.\n\nThe expense ratio of HDFC Ultra Short to Short Term Fund Direct Growth is 0.46% as shown on the Groww scheme page.\nExit load for HDFC Ultra Short to Short Term Fund Direct Growth: Nil.\nThe minimum SIP amount for HDFC Ultra Short to Short Term Fund Direct Growth is ₹100.\nThe riskometer / risk level for HDFC Ultra Short to Short Term Fund Direct Growth is Moderate.\nThe fund benchmark for HDFC Ultra Short to Short Term Fund Direct Growth is NIFTY Low Duration Debt Index A-I.\nInvestment objective of HDFC Ultra Short to Short Term Fund Direct Growth: The scheme seeks to generate income / capital appreciation through investment in debt securities and money market instruments.",
+  "parse_source": "next_data"
+}

@@ -1,0 +1,57 @@
+{
+  "scheme_id": "hdfc-pharma-and-healthcare-fund-direct-growth",
+  "scheme_name": "HDFC Pharma And Healthcare Fund Direct Growth",
+  "category": "Sectoral (Pharma & Healthcare)",
+  "amc": "HDFC Mutual Fund",
+  "source_url": "https://groww.in/mutual-funds/hdfc-pharma-and-healthcare-fund-direct-growth",
+  "source_domain": "groww.in",
+  "document_type": "groww_scheme_page",
+  "document_date": "2026-08-28",
+  "ingested_at": "2026-08-29T06:56:57+00:00",
+  "content_hash": "sha256:3df744786523497895f80bf2283c99be9b12b5a042b4795dd7b6ea1967a41e2d",
+  "facts": {
+    "expense_ratio": "1.08%",
+    "exit_load": "Exit load of 1%, if redeemed within 30 days.",
+    "min_sip": "₹100",
+    "riskometer": "Very High",
+    "benchmark": "BSE Healthcare Total Return Index",
+    "lock_in": null
+  },
+  "missing_facts": [
+    "lock_in"
+  ],
+  "sections": [
+    {
+      "page_or_section": "Expense Ratio",
+      "fact_key": "expense_ratio",
+      "text": "The expense ratio of HDFC Pharma And Healthcare Fund Direct Growth is 1.08% as shown on the Groww scheme page."
+    },
+    {
+      "page_or_section": "Exit Load",
+      "fact_key": "exit_load",
+      "text": "Exit load for HDFC Pharma And Healthcare Fund Direct Growth: Exit load of 1%, if redeemed within 30 days.."
+    },
+    {
+      "page_or_section": "Minimum SIP",
+      "fact_key": "min_sip",
+      "text": "The minimum SIP amount for HDFC Pharma And Healthcare Fund Direct Growth is ₹100."
+    },
+    {
+      "page_or_section": "Riskometer",
+      "fact_key": "riskometer",
+      "text": "The riskometer / risk level for HDFC Pharma And Healthcare Fund Direct Growth is Very High."
+    },
+    {
+      "page_or_section": "Benchmark",
+      "fact_key": "benchmark",
+      "text": "The fund benchmark for HDFC Pharma And Healthcare Fund Direct Growth is BSE Healthcare Total Return Index."
+    },
+    {
+      "page_or_section": "Investment Objective",
+      "fact_key": "investment_objective",
+      "text": "Investment objective of HDFC Pharma And Healthcare Fund Direct Growth: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related securities of Pharma and healthcare companies."
+    }
+  ],
+  "normalized_text": "HDFC Pharma And Healthcare Fund Direct Growth\n\nExpense ratio: 1.08%\nExit load: Exit load of 1%, if redeemed within 30 days.\nMinimum SIP: ₹100\nRiskometer: Very High\nBenchmark: BSE Healthcare Total Return Index\n\nInvestment objective: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related securities of Pharma and healthcare companies.\n\nThe expense ratio of HDFC Pharma And Healthcare Fund Direct Growth is 1.08% as shown on the Groww scheme page.\nExit load for HDFC Pharma And Healthcare Fund Direct Growth: Exit load of 1%, if redeemed within 30 days..\nThe minimum SIP amount for HDFC Pharma And Healthcare Fund Direct Growth is ₹100.\nThe riskometer / risk level for HDFC Pharma And Healthcare Fund Direct Growth is Very High.\nThe fund benchmark for HDFC Pharma And Healthcare Fund Direct Growth is BSE Healthcare Total Return Index.\nInvestment objective of HDFC Pharma And Healthcare Fund Direct Growth: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related securities of Pharma and healthcare companies.",
+  "parse_source": "next_data"
+}

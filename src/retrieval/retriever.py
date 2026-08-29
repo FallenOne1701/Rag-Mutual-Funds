@@ -286,7 +286,7 @@ class Retriever:
                 fallback_url=self._refusal_url,
                 message=(
                     "I couldn't tell which fund you mean. "
-                    "Please name one of the five HDFC schemes we cover."
+                    "Please name one of the HDFC schemes we cover."
                 ),
             )
 
@@ -314,7 +314,7 @@ class Retriever:
                 message=(
                     "I couldn't find verified information for that query "
                     "in our sources. Please ask a factual question about "
-                    "one of the five HDFC schemes we cover."
+                    "one of the HDFC schemes we cover."
                 ),
             )
 

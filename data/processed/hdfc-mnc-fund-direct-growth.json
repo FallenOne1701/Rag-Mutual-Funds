@@ -1,0 +1,57 @@
+{
+  "scheme_id": "hdfc-mnc-fund-direct-growth",
+  "scheme_name": "HDFC MNC Fund Direct Growth",
+  "category": "Thematic",
+  "amc": "HDFC Mutual Fund",
+  "source_url": "https://groww.in/mutual-funds/hdfc-mnc-fund-direct-growth",
+  "source_domain": "groww.in",
+  "document_type": "groww_scheme_page",
+  "document_date": "2026-08-28",
+  "ingested_at": "2026-08-29T06:57:05+00:00",
+  "content_hash": "sha256:7cf3ec1e23339c9babf705c81ff2e6e1f085ad85a981af6ad128ecf82eae957e",
+  "facts": {
+    "expense_ratio": "1.92%",
+    "exit_load": "Exit load of 1%, if redeemed within 1 year.",
+    "min_sip": "₹100",
+    "riskometer": "Very High",
+    "benchmark": "NIFTY MNC Total Return Index",
+    "lock_in": null
+  },
+  "missing_facts": [
+    "lock_in"
+  ],
+  "sections": [
+    {
+      "page_or_section": "Expense Ratio",
+      "fact_key": "expense_ratio",
+      "text": "The expense ratio of HDFC MNC Fund Direct Growth is 1.92% as shown on the Groww scheme page."
+    },
+    {
+      "page_or_section": "Exit Load",
+      "fact_key": "exit_load",
+      "text": "Exit load for HDFC MNC Fund Direct Growth: Exit load of 1%, if redeemed within 1 year.."
+    },
+    {
+      "page_or_section": "Minimum SIP",
+      "fact_key": "min_sip",
+      "text": "The minimum SIP amount for HDFC MNC Fund Direct Growth is ₹100."
+    },
+    {
+      "page_or_section": "Riskometer",
+      "fact_key": "riskometer",
+      "text": "The riskometer / risk level for HDFC MNC Fund Direct Growth is Very High."
+    },
+    {
+      "page_or_section": "Benchmark",
+      "fact_key": "benchmark",
+      "text": "The fund benchmark for HDFC MNC Fund Direct Growth is NIFTY MNC Total Return Index."
+    },
+    {
+      "page_or_section": "Investment Objective",
+      "fact_key": "investment_objective",
+      "text": "Investment objective of HDFC MNC Fund Direct Growth: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related instruments of multinational companies (MNCs)."
+    }
+  ],
+  "normalized_text": "HDFC MNC Fund Direct Growth\n\nExpense ratio: 1.92%\nExit load: Exit load of 1%, if redeemed within 1 year.\nMinimum SIP: ₹100\nRiskometer: Very High\nBenchmark: NIFTY MNC Total Return Index\n\nInvestment objective: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related instruments of multinational companies (MNCs).\n\nThe expense ratio of HDFC MNC Fund Direct Growth is 1.92% as shown on the Groww scheme page.\nExit load for HDFC MNC Fund Direct Growth: Exit load of 1%, if redeemed within 1 year..\nThe minimum SIP amount for HDFC MNC Fund Direct Growth is ₹100.\nThe riskometer / risk level for HDFC MNC Fund Direct Growth is Very High.\nThe fund benchmark for HDFC MNC Fund Direct Growth is NIFTY MNC Total Return Index.\nInvestment objective of HDFC MNC Fund Direct Growth: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related instruments of multinational companies (MNCs).",
+  "parse_source": "next_data"
+}

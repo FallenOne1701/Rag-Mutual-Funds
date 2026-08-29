@@ -23,10 +23,10 @@ def test_is_allowed_source_url():
     assert not is_allowed_source_url("https://evil.example/groww.in")
 
 
-def test_load_schemes_has_five_hdfc_groww_urls():
+def test_load_schemes_has_fifteen_hdfc_groww_urls():
     data = load_schemes()
     schemes = data["schemes"]
-    assert len(schemes) == 5
+    assert len(schemes) == 15
     urls = {s["url"] for s in schemes}
     assert all(u.startswith("https://groww.in/mutual-funds/") for u in urls)
     assert all(is_allowed_source_url(u) for u in urls)

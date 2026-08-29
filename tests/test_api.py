@@ -203,7 +203,7 @@ def test_rate_limit_returns_429(client: TestClient, monkeypatch) -> None:
 
 def test_schemes_lists_the_corpus(client: TestClient) -> None:
     body = client.get("/schemes").json()
-    assert body["count"] == 5
+    assert body["count"] == 15
     ids = {s["scheme_id"] for s in body["schemes"]}
     assert "hdfc-large-cap-fund-direct-growth" in ids
     for scheme in body["schemes"]:

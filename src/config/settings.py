@@ -108,7 +108,7 @@ class Settings(BaseSettings):
 
 
 def load_schemes(path: Path | None = None) -> dict[str, Any]:
-    """Load the Groww scheme registry (five HDFC funds + refusal URL)."""
+    """Load the Groww scheme registry (fifteen HDFC funds + refusal URL)."""
     schemes_file = path or SCHEMES_PATH
     with schemes_file.open(encoding="utf-8") as f:
         data = yaml.safe_load(f)

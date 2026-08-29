@@ -1,5 +1,5 @@
 {
-  "ingested_at": "2026-08-27T14:59:01+00:00",
+  "ingested_at": "2026-08-29T06:58:55+00:00",
   "stages": [
     "fetch",
     "parse",
@@ -11,10 +11,10 @@
   "disclaimer": "Facts-only. No investment advice.",
   "reports": {
     "fetch": {
-      "fetched_at": "2026-08-27T14:57:11+00:00",
+      "fetched_at": "2026-08-29T06:56:50+00:00",
       "raw_dir": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw",
-      "expected_scheme_count": 5,
-      "ok_count": 5,
+      "expected_scheme_count": 15,
+      "ok_count": 15,
       "error_count": 0,
       "all_ok": true,
       "results": [
@@ -25,10 +25,10 @@
           "status": "ok",
           "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-mid-cap-fund-direct-growth.html",
           "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-mid-cap-fund-direct-growth.meta.json",
-          "content_hash": "sha256:83bec919c0078d29ddb900f8cde2e3790c75d299479704bd08478a7a8ba0904b",
-          "byte_length": 418243,
+          "content_hash": "sha256:f29fb2136bf37d6c6de04f55fa2e5ddad0cf4fe9c788b90c08edff8544f5d151",
+          "byte_length": 418340,
           "http_status": 200,
-          "fetched_at": "2026-08-27T14:57:12+00:00",
+          "fetched_at": "2026-08-29T06:56:50+00:00",
           "error": null
         },
         {
@@ -38,10 +38,10 @@
           "status": "ok",
           "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-small-cap-fund-direct-growth.html",
           "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-small-cap-fund-direct-growth.meta.json",
-          "content_hash": "sha256:3024b6201373bec8861c0e6c617b2e73bad28be851c9ff37dbbb5d39de403e77",
-          "byte_length": 425625,
+          "content_hash": "sha256:87b62580e3fbb21971a415a077d0f29ff4c6bbe4dddf0a0f75da6ab75c9324c6",
+          "byte_length": 425723,
           "http_status": 200,
-          "fetched_at": "2026-08-27T14:57:13+00:00",
+          "fetched_at": "2026-08-29T06:56:51+00:00",
           "error": null
         },
         {
@@ -51,10 +51,10 @@
           "status": "ok",
           "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-gold-etf-fund-of-fund-direct-plan-growth.html",
           "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-gold-etf-fund-of-fund-direct-plan-growth.meta.json",
-          "content_hash": "sha256:5d170d549d629be8e9a20184d21cce509f443ab206fb474d4e2cc9e6898aaf5b",
-          "byte_length": 316159,
+          "content_hash": "sha256:2bf01d57c21513d07fef2b1c4a543cdb776156a9bcb6132a845bb472b38f2efd",
+          "byte_length": 316259,
           "http_status": 200,
-          "fetched_at": "2026-08-27T14:57:15+00:00",
+          "fetched_at": "2026-08-29T06:56:52+00:00",
           "error": null
         },
         {
@@ -64,10 +64,10 @@
           "status": "ok",
           "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-large-cap-fund-direct-growth.html",
           "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-large-cap-fund-direct-growth.meta.json",
-          "content_hash": "sha256:4e1322167f5b3c9713cf1047fdb90dd5d93476861fd5e9c5e6d7b94ccf81b982",
-          "byte_length": 412146,
+          "content_hash": "sha256:6c5883bdf059902ca1ba5000173cf8f4d36df9e9a3224f424b9df2ff299837f3",
+          "byte_length": 381880,
           "http_status": 200,
-          "fetched_at": "2026-08-27T14:57:16+00:00",
+          "fetched_at": "2026-08-29T06:56:54+00:00",
           "error": null
         },
         {
@@ -77,19 +77,149 @@
           "status": "ok",
           "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-elss-tax-saver-fund-direct-plan-growth.html",
           "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-elss-tax-saver-fund-direct-plan-growth.meta.json",
-          "content_hash": "sha256:ef37c972eafaa8b827c226c38189b59339d5b55df68f0c5121c96bf959b7320f",
-          "byte_length": 402518,
+          "content_hash": "sha256:dcfe7efd46f194d4e284cb0aa18938fcdb66c6c5883203ecd1c5296d9be1e875",
+          "byte_length": 402514,
           "http_status": 200,
-          "fetched_at": "2026-08-27T14:57:17+00:00",
+          "fetched_at": "2026-08-29T06:56:55+00:00",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-defence-fund-direct-growth",
+          "scheme_name": "HDFC Defence Fund Direct Growth",
+          "source_url": "https://groww.in/mutual-funds/hdfc-defence-fund-direct-growth",
+          "status": "ok",
+          "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-defence-fund-direct-growth.html",
+          "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-defence-fund-direct-growth.meta.json",
+          "content_hash": "sha256:ee521c0ed294d52e8f55beca48f3b23b56c8f991a037ea240ad79013a28b6f84",
+          "byte_length": 327210,
+          "http_status": 200,
+          "fetched_at": "2026-08-29T06:56:56+00:00",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-pharma-and-healthcare-fund-direct-growth",
+          "scheme_name": "HDFC Pharma and Healthcare Fund Direct Growth",
+          "source_url": "https://groww.in/mutual-funds/hdfc-pharma-and-healthcare-fund-direct-growth",
+          "status": "ok",
+          "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-pharma-and-healthcare-fund-direct-growth.html",
+          "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-pharma-and-healthcare-fund-direct-growth.meta.json",
+          "content_hash": "sha256:3df744786523497895f80bf2283c99be9b12b5a042b4795dd7b6ea1967a41e2d",
+          "byte_length": 334002,
+          "http_status": 200,
+          "fetched_at": "2026-08-29T06:56:57+00:00",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-focused-fund-direct-growth",
+          "scheme_name": "HDFC Focused Fund Direct Growth",
+          "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
+          "status": "ok",
+          "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-focused-fund-direct-growth.html",
+          "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-focused-fund-direct-growth.meta.json",
+          "content_hash": "sha256:a67c0e151ec43f97510fe2dad7fd23473ce31aa29ee81c0adc23587622930e30",
+          "byte_length": 366562,
+          "http_status": 200,
+          "fetched_at": "2026-08-29T06:56:59+00:00",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-innovation-fund-direct-growth",
+          "scheme_name": "HDFC Innovation Fund Direct Growth",
+          "source_url": "https://groww.in/mutual-funds/hdfc-innovation-fund-direct-growth",
+          "status": "ok",
+          "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-innovation-fund-direct-growth.html",
+          "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-innovation-fund-direct-growth.meta.json",
+          "content_hash": "sha256:f281bb07d0076d16e454b992a3b7a2a02904ff4f6b3a602c3ac28294c8e99770",
+          "byte_length": 306442,
+          "http_status": 200,
+          "fetched_at": "2026-08-29T06:57:00+00:00",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-banking-financial-services-fund-direct-growth",
+          "scheme_name": "HDFC Banking & Financial Services Fund Direct Growth",
+          "source_url": "https://groww.in/mutual-funds/hdfc-banking-financial-services-fund-direct-growth",
+          "status": "ok",
+          "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-banking-financial-services-fund-direct-growth.html",
+          "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-banking-financial-services-fund-direct-growth.meta.json",
+          "content_hash": "sha256:d4d75cee35855212dfdc3d036de49920db0ecf92f007cfd4333f7086f9ee0211",
+          "byte_length": 346742,
+          "http_status": 200,
+          "fetched_at": "2026-08-29T06:57:01+00:00",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-gilt-fund-direct-growth",
+          "scheme_name": "HDFC Gilt Fund Direct Growth",
+          "source_url": "https://groww.in/mutual-funds/hdfc-gilt-fund-direct-growth",
+          "status": "ok",
+          "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-gilt-fund-direct-growth.html",
+          "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-gilt-fund-direct-growth.meta.json",
+          "content_hash": "sha256:48b5c9e0b54dcfb2beca2d71a0b61c8623a0ac17bf02ed55b864d7cc21dcdbc7",
+          "byte_length": 358748,
+          "http_status": 200,
+          "fetched_at": "2026-08-29T06:57:03+00:00",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-ultra-short-to-short-term-fund-direct-growth",
+          "scheme_name": "HDFC Ultra Short to Short Term Fund Direct Growth",
+          "source_url": "https://groww.in/mutual-funds/hdfc-ultra-short-to-short-term-fund-direct-growth",
+          "status": "ok",
+          "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-ultra-short-to-short-term-fund-direct-growth.html",
+          "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-ultra-short-to-short-term-fund-direct-growth.meta.json",
+          "content_hash": "sha256:346fc71f7646ff331dbabfb9e1d73d13b5991d983ebd354dfd9abf9768137e6a",
+          "byte_length": 511796,
+          "http_status": 200,
+          "fetched_at": "2026-08-29T06:57:04+00:00",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-mnc-fund-direct-growth",
+          "scheme_name": "HDFC MNC Fund Direct Growth",
+          "source_url": "https://groww.in/mutual-funds/hdfc-mnc-fund-direct-growth",
+          "status": "ok",
+          "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-mnc-fund-direct-growth.html",
+          "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-mnc-fund-direct-growth.meta.json",
+          "content_hash": "sha256:7cf3ec1e23339c9babf705c81ff2e6e1f085ad85a981af6ad128ecf82eae957e",
+          "byte_length": 344331,
+          "http_status": 200,
+          "fetched_at": "2026-08-29T06:57:05+00:00",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-medium-to-long-term-fund-direct-growth",
+          "scheme_name": "HDFC Medium to Long Term Fund Direct Growth",
+          "source_url": "https://groww.in/mutual-funds/hdfc-medium-to-long-term-fund-direct-growth",
+          "status": "ok",
+          "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-medium-to-long-term-fund-direct-growth.html",
+          "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-medium-to-long-term-fund-direct-growth.meta.json",
+          "content_hash": "sha256:98e677ef5f497d9af3bde8552bc8c52514e3dd9bd7b79434d5e4ea1ae1f73549",
+          "byte_length": 407600,
+          "http_status": 200,
+          "fetched_at": "2026-08-29T06:57:06+00:00",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-arbitrage-fund-direct-growth",
+          "scheme_name": "HDFC Arbitrage Fund Direct Growth",
+          "source_url": "https://groww.in/mutual-funds/hdfc-arbitrage-fund-direct-growth",
+          "status": "ok",
+          "html_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-arbitrage-fund-direct-growth.html",
+          "meta_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\raw\\hdfc-arbitrage-fund-direct-growth.meta.json",
+          "content_hash": "sha256:005af6f879f0abbc503a6d048464a174d8591ed4043803c08ad2019a553d8906",
+          "byte_length": 743124,
+          "http_status": 200,
+          "fetched_at": "2026-08-29T06:57:08+00:00",
           "error": null
         }
       ]
     },
     "parse": {
-      "parsed_at": "2026-08-27T14:57:17+00:00",
+      "parsed_at": "2026-08-29T06:57:08+00:00",
       "processed_dir": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed",
-      "expected_scheme_count": 5,
-      "ok_count": 5,
+      "expected_scheme_count": 15,
+      "ok_count": 15,
       "error_count": 0,
       "all_ok": true,
       "results": [
@@ -101,7 +231,7 @@
           "missing_facts": [
             "lock_in"
           ],
-          "document_date": "2026-08-26",
+          "document_date": "2026-08-28",
           "error": null
         },
         {
@@ -112,7 +242,7 @@
           "missing_facts": [
             "lock_in"
           ],
-          "document_date": "2026-08-26",
+          "document_date": "2026-08-28",
           "error": null
         },
         {
@@ -123,7 +253,7 @@
           "missing_facts": [
             "lock_in"
           ],
-          "document_date": "2026-08-26",
+          "document_date": "2026-08-28",
           "error": null
         },
         {
@@ -134,7 +264,7 @@
           "missing_facts": [
             "lock_in"
           ],
-          "document_date": "2026-08-26",
+          "document_date": "2026-08-28",
           "error": null
         },
         {
@@ -143,19 +273,129 @@
           "status": "ok",
           "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\hdfc-elss-tax-saver-fund-direct-plan-growth.json",
           "missing_facts": [],
-          "document_date": "2026-08-26",
+          "document_date": "2026-08-28",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-defence-fund-direct-growth",
+          "scheme_name": "HDFC Defence Fund Direct Growth",
+          "status": "ok",
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\hdfc-defence-fund-direct-growth.json",
+          "missing_facts": [
+            "lock_in"
+          ],
+          "document_date": "2026-08-28",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-pharma-and-healthcare-fund-direct-growth",
+          "scheme_name": "HDFC Pharma and Healthcare Fund Direct Growth",
+          "status": "ok",
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\hdfc-pharma-and-healthcare-fund-direct-growth.json",
+          "missing_facts": [
+            "lock_in"
+          ],
+          "document_date": "2026-08-28",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-focused-fund-direct-growth",
+          "scheme_name": "HDFC Focused Fund Direct Growth",
+          "status": "ok",
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\hdfc-focused-fund-direct-growth.json",
+          "missing_facts": [
+            "lock_in"
+          ],
+          "document_date": "2026-08-28",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-innovation-fund-direct-growth",
+          "scheme_name": "HDFC Innovation Fund Direct Growth",
+          "status": "ok",
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\hdfc-innovation-fund-direct-growth.json",
+          "missing_facts": [
+            "lock_in"
+          ],
+          "document_date": "2026-08-28",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-banking-financial-services-fund-direct-growth",
+          "scheme_name": "HDFC Banking & Financial Services Fund Direct Growth",
+          "status": "ok",
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\hdfc-banking-financial-services-fund-direct-growth.json",
+          "missing_facts": [
+            "lock_in"
+          ],
+          "document_date": "2026-08-28",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-gilt-fund-direct-growth",
+          "scheme_name": "HDFC Gilt Fund Direct Growth",
+          "status": "ok",
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\hdfc-gilt-fund-direct-growth.json",
+          "missing_facts": [
+            "lock_in"
+          ],
+          "document_date": "2026-08-28",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-ultra-short-to-short-term-fund-direct-growth",
+          "scheme_name": "HDFC Ultra Short to Short Term Fund Direct Growth",
+          "status": "ok",
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\hdfc-ultra-short-to-short-term-fund-direct-growth.json",
+          "missing_facts": [
+            "lock_in"
+          ],
+          "document_date": "2026-08-28",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-mnc-fund-direct-growth",
+          "scheme_name": "HDFC MNC Fund Direct Growth",
+          "status": "ok",
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\hdfc-mnc-fund-direct-growth.json",
+          "missing_facts": [
+            "lock_in"
+          ],
+          "document_date": "2026-08-28",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-medium-to-long-term-fund-direct-growth",
+          "scheme_name": "HDFC Medium to Long Term Fund Direct Growth",
+          "status": "ok",
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\hdfc-medium-to-long-term-fund-direct-growth.json",
+          "missing_facts": [
+            "lock_in"
+          ],
+          "document_date": "2026-08-28",
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-arbitrage-fund-direct-growth",
+          "scheme_name": "HDFC Arbitrage Fund Direct Growth",
+          "status": "ok",
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\hdfc-arbitrage-fund-direct-growth.json",
+          "missing_facts": [
+            "lock_in"
+          ],
+          "document_date": "2026-08-28",
           "error": null
         }
       ]
     },
     "chunk": {
-      "chunked_at": "2026-08-27T14:57:22+00:00",
+      "chunked_at": "2026-08-29T06:57:22+00:00",
       "processed_dir": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed",
       "chunks_dir": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks",
-      "expected_scheme_count": 5,
-      "ok_count": 5,
+      "expected_scheme_count": 15,
+      "ok_count": 15,
       "error_count": 0,
-      "total_chunks": 31,
+      "total_chunks": 91,
       "all_ok": true,
       "results": [
         {
@@ -210,19 +450,129 @@
           "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-elss-tax-saver-fund-direct-plan-growth.json",
           "skipped_missing": [],
           "error": null
+        },
+        {
+          "scheme_id": "hdfc-defence-fund-direct-growth",
+          "scheme_name": "HDFC Defence Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-defence-fund-direct-growth.json",
+          "skipped_missing": [
+            "lock_in"
+          ],
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-pharma-and-healthcare-fund-direct-growth",
+          "scheme_name": "HDFC Pharma and Healthcare Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-pharma-and-healthcare-fund-direct-growth.json",
+          "skipped_missing": [
+            "lock_in"
+          ],
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-focused-fund-direct-growth",
+          "scheme_name": "HDFC Focused Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-focused-fund-direct-growth.json",
+          "skipped_missing": [
+            "lock_in"
+          ],
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-innovation-fund-direct-growth",
+          "scheme_name": "HDFC Innovation Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-innovation-fund-direct-growth.json",
+          "skipped_missing": [
+            "lock_in"
+          ],
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-banking-financial-services-fund-direct-growth",
+          "scheme_name": "HDFC Banking & Financial Services Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-banking-financial-services-fund-direct-growth.json",
+          "skipped_missing": [
+            "lock_in"
+          ],
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-gilt-fund-direct-growth",
+          "scheme_name": "HDFC Gilt Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-gilt-fund-direct-growth.json",
+          "skipped_missing": [
+            "lock_in"
+          ],
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-ultra-short-to-short-term-fund-direct-growth",
+          "scheme_name": "HDFC Ultra Short to Short Term Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-ultra-short-to-short-term-fund-direct-growth.json",
+          "skipped_missing": [
+            "lock_in"
+          ],
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-mnc-fund-direct-growth",
+          "scheme_name": "HDFC MNC Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-mnc-fund-direct-growth.json",
+          "skipped_missing": [
+            "lock_in"
+          ],
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-medium-to-long-term-fund-direct-growth",
+          "scheme_name": "HDFC Medium to Long Term Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-medium-to-long-term-fund-direct-growth.json",
+          "skipped_missing": [
+            "lock_in"
+          ],
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-arbitrage-fund-direct-growth",
+          "scheme_name": "HDFC Arbitrage Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-arbitrage-fund-direct-growth.json",
+          "skipped_missing": [
+            "lock_in"
+          ],
+          "error": null
         }
       ]
     },
     "index": {
-      "indexed_at": "2026-08-27T14:57:22+00:00",
+      "indexed_at": "2026-08-29T06:57:22+00:00",
       "index_dir": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\index",
       "collection_name": "mf_faq_chunks",
       "embedding_model": "BAAI/bge-small-en-v1.5",
-      "expected_scheme_count": 5,
-      "ok_count": 5,
+      "expected_scheme_count": 15,
+      "ok_count": 15,
       "error_count": 0,
-      "total_chunks": 31,
-      "upserted": 31,
+      "total_chunks": 91,
+      "upserted": 91,
       "all_ok": true,
       "error": null,
       "results": [
@@ -260,17 +610,87 @@
           "status": "ok",
           "chunk_count": 7,
           "error": null
+        },
+        {
+          "scheme_id": "hdfc-defence-fund-direct-growth",
+          "scheme_name": "HDFC Defence Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-pharma-and-healthcare-fund-direct-growth",
+          "scheme_name": "HDFC Pharma and Healthcare Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-focused-fund-direct-growth",
+          "scheme_name": "HDFC Focused Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-innovation-fund-direct-growth",
+          "scheme_name": "HDFC Innovation Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-banking-financial-services-fund-direct-growth",
+          "scheme_name": "HDFC Banking & Financial Services Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-gilt-fund-direct-growth",
+          "scheme_name": "HDFC Gilt Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-ultra-short-to-short-term-fund-direct-growth",
+          "scheme_name": "HDFC Ultra Short to Short Term Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-mnc-fund-direct-growth",
+          "scheme_name": "HDFC MNC Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-medium-to-long-term-fund-direct-growth",
+          "scheme_name": "HDFC Medium to Long Term Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "error": null
+        },
+        {
+          "scheme_id": "hdfc-arbitrage-fund-direct-growth",
+          "scheme_name": "HDFC Arbitrage Fund Direct Growth",
+          "status": "ok",
+          "chunk_count": 6,
+          "error": null
         }
       ]
     }
   },
   "headline": {
-    "schemes_fetched": "5/5",
-    "schemes_parsed": "5/5",
-    "schemes_chunked": "5/5",
-    "total_chunks": 31,
-    "schemes_indexed": "5/5",
-    "vectors_upserted": 31,
+    "schemes_fetched": "15/15",
+    "schemes_parsed": "15/15",
+    "schemes_chunked": "15/15",
+    "total_chunks": 91,
+    "schemes_indexed": "15/15",
+    "vectors_upserted": 91,
     "embedding_model": "BAAI/bge-small-en-v1.5",
     "collection": "mf_faq_chunks"
   }

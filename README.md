@@ -2,7 +2,7 @@
 
 **Facts-only. No investment advice.**
 
-Lightweight RAG assistant over five HDFC mutual fund scheme pages on Groww. Answers are source-backed; advisory questions are refused. The sole LLM provider is **Groq**.
+Lightweight RAG assistant over fifteen HDFC mutual fund scheme pages on Groww. Answers are source-backed; advisory questions are refused. The sole LLM provider is **Groq**.
 
 ## Docs
 
@@ -41,7 +41,7 @@ copy .env.example .env   # then set GROQ_API_KEY=
 ## Quick checks
 
 ```bash
-# Settings + five schemes load
+# Settings + fifteen schemes load
 python -c "from src.config import get_settings, load_schemes; s=get_settings(); d=load_schemes(); print(len(d['schemes']), s.groq_model, s.disclaimer)"
 
 # Document Fetcher — save Groww HTML to data/raw/
@@ -98,7 +98,7 @@ npm run dev   # http://localhost:5173
 
 ## Schemes (corpus)
 
-See `src/config/schemes.yaml` — five HDFC Direct Growth pages on `groww.in`. Refusal educational link: https://groww.in/p/mutual-funds
+See `src/config/schemes.yaml` — fifteen HDFC Direct Growth pages on `groww.in`. Refusal educational link: https://groww.in/p/mutual-funds
 
 ## Disclaimer
 

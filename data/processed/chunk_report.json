@@ -1,11 +1,11 @@
 {
-  "chunked_at": "2026-08-28T16:51:03+00:00",
-  "processed_dir": "/home/runner/work/Rag-Mutual-Funds/Rag-Mutual-Funds/data/processed",
-  "chunks_dir": "/home/runner/work/Rag-Mutual-Funds/Rag-Mutual-Funds/data/processed/chunks",
-  "expected_scheme_count": 5,
-  "ok_count": 5,
+  "chunked_at": "2026-08-29T06:57:22+00:00",
+  "processed_dir": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed",
+  "chunks_dir": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks",
+  "expected_scheme_count": 15,
+  "ok_count": 15,
   "error_count": 0,
-  "total_chunks": 31,
+  "total_chunks": 91,
   "all_ok": true,
   "results": [
     {
@@ -13,7 +13,7 @@
       "scheme_name": "HDFC Mid Cap Fund Direct Growth",
       "status": "ok",
       "chunk_count": 6,
-      "output_path": "/home/runner/work/Rag-Mutual-Funds/Rag-Mutual-Funds/data/processed/chunks/hdfc-mid-cap-fund-direct-growth.json",
+      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-mid-cap-fund-direct-growth.json",
       "skipped_missing": [
         "lock_in"
       ],
@@ -24,7 +24,7 @@
       "scheme_name": "HDFC Small Cap Fund Direct Growth",
       "status": "ok",
       "chunk_count": 6,
-      "output_path": "/home/runner/work/Rag-Mutual-Funds/Rag-Mutual-Funds/data/processed/chunks/hdfc-small-cap-fund-direct-growth.json",
+      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-small-cap-fund-direct-growth.json",
       "skipped_missing": [
         "lock_in"
       ],
@@ -35,7 +35,7 @@
       "scheme_name": "HDFC Gold ETF Fund of Fund Direct Plan Growth",
       "status": "ok",
       "chunk_count": 6,
-      "output_path": "/home/runner/work/Rag-Mutual-Funds/Rag-Mutual-Funds/data/processed/chunks/hdfc-gold-etf-fund-of-fund-direct-plan-growth.json",
+      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-gold-etf-fund-of-fund-direct-plan-growth.json",
       "skipped_missing": [
         "lock_in"
       ],
@@ -46,7 +46,7 @@
       "scheme_name": "HDFC Large Cap Fund Direct Growth",
       "status": "ok",
       "chunk_count": 6,
-      "output_path": "/home/runner/work/Rag-Mutual-Funds/Rag-Mutual-Funds/data/processed/chunks/hdfc-large-cap-fund-direct-growth.json",
+      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-large-cap-fund-direct-growth.json",
       "skipped_missing": [
         "lock_in"
       ],
@@ -57,8 +57,118 @@
       "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
       "status": "ok",
       "chunk_count": 7,
-      "output_path": "/home/runner/work/Rag-Mutual-Funds/Rag-Mutual-Funds/data/processed/chunks/hdfc-elss-tax-saver-fund-direct-plan-growth.json",
+      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-elss-tax-saver-fund-direct-plan-growth.json",
       "skipped_missing": [],
+      "error": null
+    },
+    {
+      "scheme_id": "hdfc-defence-fund-direct-growth",
+      "scheme_name": "HDFC Defence Fund Direct Growth",
+      "status": "ok",
+      "chunk_count": 6,
+      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-defence-fund-direct-growth.json",
+      "skipped_missing": [
+        "lock_in"
+      ],
+      "error": null
+    },
+    {
+      "scheme_id": "hdfc-pharma-and-healthcare-fund-direct-growth",
+      "scheme_name": "HDFC Pharma and Healthcare Fund Direct Growth",
+      "status": "ok",
+      "chunk_count": 6,
+      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-pharma-and-healthcare-fund-direct-growth.json",
+      "skipped_missing": [
+        "lock_in"
+      ],
+      "error": null
+    },
+    {
+      "scheme_id": "hdfc-focused-fund-direct-growth",
+      "scheme_name": "HDFC Focused Fund Direct Growth",
+      "status": "ok",
+      "chunk_count": 6,
+      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-focused-fund-direct-growth.json",
+      "skipped_missing": [
+        "lock_in"
+      ],
+      "error": null
+    },
+    {
+      "scheme_id": "hdfc-innovation-fund-direct-growth",
+      "scheme_name": "HDFC Innovation Fund Direct Growth",
+      "status": "ok",
+      "chunk_count": 6,
+      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-innovation-fund-direct-growth.json",
+      "skipped_missing": [
+        "lock_in"
+      ],
+      "error": null
+    },
+    {
+      "scheme_id": "hdfc-banking-financial-services-fund-direct-growth",
+      "scheme_name": "HDFC Banking & Financial Services Fund Direct Growth",
+      "status": "ok",
+      "chunk_count": 6,
+      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-banking-financial-services-fund-direct-growth.json",
+      "skipped_missing": [
+        "lock_in"
+      ],
+      "error": null
+    },
+    {
+      "scheme_id": "hdfc-gilt-fund-direct-growth",
+      "scheme_name": "HDFC Gilt Fund Direct Growth",
+      "status": "ok",
+      "chunk_count": 6,
+      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-gilt-fund-direct-growth.json",
+      "skipped_missing": [
+        "lock_in"
+      ],
+      "error": null
+    },
+    {
+      "scheme_id": "hdfc-ultra-short-to-short-term-fund-direct-growth",
+      "scheme_name": "HDFC Ultra Short to Short Term Fund Direct Growth",
+      "status": "ok",
+      "chunk_count": 6,
+      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-ultra-short-to-short-term-fund-direct-growth.json",
+      "skipped_missing": [
+        "lock_in"
+      ],
+      "error": null
+    },
+    {
+      "scheme_id": "hdfc-mnc-fund-direct-growth",
+      "scheme_name": "HDFC MNC Fund Direct Growth",
+      "status": "ok",
+      "chunk_count": 6,
+      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-mnc-fund-direct-growth.json",
+      "skipped_missing": [
+        "lock_in"
+      ],
+      "error": null
+    },
+    {
+      "scheme_id": "hdfc-medium-to-long-term-fund-direct-growth",
+      "scheme_name": "HDFC Medium to Long Term Fund Direct Growth",
+      "status": "ok",
+      "chunk_count": 6,
+      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-medium-to-long-term-fund-direct-growth.json",
+      "skipped_missing": [
+        "lock_in"
+      ],
+      "error": null
+    },
+    {
+      "scheme_id": "hdfc-arbitrage-fund-direct-growth",
+      "scheme_name": "HDFC Arbitrage Fund Direct Growth",
+      "status": "ok",
+      "chunk_count": 6,
+      "output_path": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\processed\\chunks\\hdfc-arbitrage-fund-direct-growth.json",
+      "skipped_missing": [
+        "lock_in"
+      ],
       "error": null
     }
   ]

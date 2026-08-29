@@ -1,0 +1,57 @@
+{
+  "scheme_id": "hdfc-gilt-fund-direct-growth",
+  "scheme_name": "HDFC Gilt Fund Direct Growth",
+  "category": "Gilt / Debt",
+  "amc": "HDFC Mutual Fund",
+  "source_url": "https://groww.in/mutual-funds/hdfc-gilt-fund-direct-growth",
+  "source_domain": "groww.in",
+  "document_type": "groww_scheme_page",
+  "document_date": "2026-08-28",
+  "ingested_at": "2026-08-29T06:57:03+00:00",
+  "content_hash": "sha256:48b5c9e0b54dcfb2beca2d71a0b61c8623a0ac17bf02ed55b864d7cc21dcdbc7",
+  "facts": {
+    "expense_ratio": "0.46%",
+    "exit_load": "Nil",
+    "min_sip": "₹100",
+    "riskometer": "Moderate",
+    "benchmark": "NIFTY All Duration G-Sec Index",
+    "lock_in": null
+  },
+  "missing_facts": [
+    "lock_in"
+  ],
+  "sections": [
+    {
+      "page_or_section": "Expense Ratio",
+      "fact_key": "expense_ratio",
+      "text": "The expense ratio of HDFC Gilt Fund Direct Growth is 0.46% as shown on the Groww scheme page."
+    },
+    {
+      "page_or_section": "Exit Load",
+      "fact_key": "exit_load",
+      "text": "Exit load for HDFC Gilt Fund Direct Growth: Nil."
+    },
+    {
+      "page_or_section": "Minimum SIP",
+      "fact_key": "min_sip",
+      "text": "The minimum SIP amount for HDFC Gilt Fund Direct Growth is ₹100."
+    },
+    {
+      "page_or_section": "Riskometer",
+      "fact_key": "riskometer",
+      "text": "The riskometer / risk level for HDFC Gilt Fund Direct Growth is Moderate."
+    },
+    {
+      "page_or_section": "Benchmark",
+      "fact_key": "benchmark",
+      "text": "The fund benchmark for HDFC Gilt Fund Direct Growth is NIFTY All Duration G-Sec Index."
+    },
+    {
+      "page_or_section": "Investment Objective",
+      "fact_key": "investment_objective",
+      "text": "Investment objective of HDFC Gilt Fund Direct Growth: The scheme is a dedicated gilt scheme which seeks to generate reasonable returns with investments in government securities, securities guaranteed by GoI with medium to long term residual maturities."
+    }
+  ],
+  "normalized_text": "HDFC Gilt Fund Direct Growth\n\nExpense ratio: 0.46%\nExit load: Nil\nMinimum SIP: ₹100\nRiskometer: Moderate\nBenchmark: NIFTY All Duration G-Sec Index\n\nInvestment objective: The scheme is a dedicated gilt scheme which seeks to generate reasonable returns with investments in government securities, securities guaranteed by GoI with medium to long term residual maturities.\n\nThe expense ratio of HDFC Gilt Fund Direct Growth is 0.46% as shown on the Groww scheme page.\nExit load for HDFC Gilt Fund Direct Growth: Nil.\nThe minimum SIP amount for HDFC Gilt Fund Direct Growth is ₹100.\nThe riskometer / risk level for HDFC Gilt Fund Direct Growth is Moderate.\nThe fund benchmark for HDFC Gilt Fund Direct Growth is NIFTY All Duration G-Sec Index.\nInvestment objective of HDFC Gilt Fund Direct Growth: The scheme is a dedicated gilt scheme which seeks to generate reasonable returns with investments in government securities, securities guaranteed by GoI with medium to long term residual maturities.",
+  "parse_source": "next_data"
+}

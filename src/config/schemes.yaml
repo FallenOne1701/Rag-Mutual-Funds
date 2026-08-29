@@ -29,6 +29,56 @@ schemes:
     category: ELSS
     url: https://groww.in/mutual-funds/hdfc-elss-tax-saver-fund-direct-plan-growth
 
+  - scheme_id: hdfc-defence-fund-direct-growth
+    scheme_name: HDFC Defence Fund Direct Growth
+    category: Sectoral (Defence)
+    url: https://groww.in/mutual-funds/hdfc-defence-fund-direct-growth
+
+  - scheme_id: hdfc-pharma-and-healthcare-fund-direct-growth
+    scheme_name: HDFC Pharma and Healthcare Fund Direct Growth
+    category: Sectoral (Pharma & Healthcare)
+    url: https://groww.in/mutual-funds/hdfc-pharma-and-healthcare-fund-direct-growth
+
+  - scheme_id: hdfc-focused-fund-direct-growth
+    scheme_name: HDFC Focused Fund Direct Growth
+    category: Flexi Cap
+    url: https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth
+
+  - scheme_id: hdfc-innovation-fund-direct-growth
+    scheme_name: HDFC Innovation Fund Direct Growth
+    category: Thematic
+    url: https://groww.in/mutual-funds/hdfc-innovation-fund-direct-growth
+
+  - scheme_id: hdfc-banking-financial-services-fund-direct-growth
+    scheme_name: HDFC Banking & Financial Services Fund Direct Growth
+    category: Sectoral (Banking & Financial Services)
+    url: https://groww.in/mutual-funds/hdfc-banking-financial-services-fund-direct-growth
+
+  - scheme_id: hdfc-gilt-fund-direct-growth
+    scheme_name: HDFC Gilt Fund Direct Growth
+    category: Gilt / Debt
+    url: https://groww.in/mutual-funds/hdfc-gilt-fund-direct-growth
+
+  - scheme_id: hdfc-ultra-short-to-short-term-fund-direct-growth
+    scheme_name: HDFC Ultra Short to Short Term Fund Direct Growth
+    category: Low Duration / Debt
+    url: https://groww.in/mutual-funds/hdfc-ultra-short-to-short-term-fund-direct-growth
+
+  - scheme_id: hdfc-mnc-fund-direct-growth
+    scheme_name: HDFC MNC Fund Direct Growth
+    category: Thematic
+    url: https://groww.in/mutual-funds/hdfc-mnc-fund-direct-growth
+
+  - scheme_id: hdfc-medium-to-long-term-fund-direct-growth
+    scheme_name: HDFC Medium to Long Term Fund Direct Growth
+    category: Medium to Long Duration / Debt
+    url: https://groww.in/mutual-funds/hdfc-medium-to-long-term-fund-direct-growth
+
+  - scheme_id: hdfc-arbitrage-fund-direct-growth
+    scheme_name: HDFC Arbitrage Fund Direct Growth
+    category: Arbitrage / Hybrid
+    url: https://groww.in/mutual-funds/hdfc-arbitrage-fund-direct-growth
+
 # Refusal citations only — not ingested into the corpus
 refusal:
   url: https://groww.in/p/mutual-funds

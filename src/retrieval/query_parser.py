@@ -54,6 +54,58 @@ _SCHEME_ALIASES: dict[str, tuple[str, ...]] = {
         "tax saver",
         "elss",
     ),
+    "hdfc-defence-fund-direct-growth": (
+        "defence fund",
+        "defense fund",
+        "defence",
+        "defense",
+    ),
+    "hdfc-pharma-and-healthcare-fund-direct-growth": (
+        "pharma and healthcare fund",
+        "pharma healthcare fund",
+        "pharma and healthcare",
+        "pharma healthcare",
+        "healthcare fund",
+    ),
+    "hdfc-focused-fund-direct-growth": (
+        "focused fund",
+        "focus fund",
+    ),
+    "hdfc-innovation-fund-direct-growth": (
+        "innovation fund",
+        "innovation",
+    ),
+    "hdfc-banking-financial-services-fund-direct-growth": (
+        "banking and financial services fund",
+        "banking financial services fund",
+        "banking & financial services",
+        "banking financial services",
+        "bfsi fund",
+    ),
+    "hdfc-gilt-fund-direct-growth": (
+        "gilt fund",
+        "gilt",
+    ),
+    "hdfc-ultra-short-to-short-term-fund-direct-growth": (
+        "ultra short to short term fund",
+        "ultra short short term fund",
+        "ultra short term fund",
+        "ultra short",
+    ),
+    "hdfc-mnc-fund-direct-growth": (
+        "mnc fund",
+        "mnc",
+    ),
+    "hdfc-medium-to-long-term-fund-direct-growth": (
+        "medium to long term fund",
+        "medium to long duration fund",
+        "medium to long term",
+        "medium to long duration",
+    ),
+    "hdfc-arbitrage-fund-direct-growth": (
+        "arbitrage fund",
+        "arbitrage",
+    ),
 }
 
 # fact_key → phrases (checked case-insensitively; longer phrases first)

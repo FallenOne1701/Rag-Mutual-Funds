@@ -1,0 +1,57 @@
+{
+  "scheme_id": "hdfc-defence-fund-direct-growth",
+  "scheme_name": "HDFC Defence Fund Direct Growth",
+  "category": "Sectoral (Defence)",
+  "amc": "HDFC Mutual Fund",
+  "source_url": "https://groww.in/mutual-funds/hdfc-defence-fund-direct-growth",
+  "source_domain": "groww.in",
+  "document_type": "groww_scheme_page",
+  "document_date": "2026-08-28",
+  "ingested_at": "2026-08-29T06:56:56+00:00",
+  "content_hash": "sha256:ee521c0ed294d52e8f55beca48f3b23b56c8f991a037ea240ad79013a28b6f84",
+  "facts": {
+    "expense_ratio": "0.89%",
+    "exit_load": "Exit load of 1%, if redeemed within 1 year.",
+    "min_sip": "₹100",
+    "riskometer": "Very High",
+    "benchmark": "Nifty India Defence Total Return Index",
+    "lock_in": null
+  },
+  "missing_facts": [
+    "lock_in"
+  ],
+  "sections": [
+    {
+      "page_or_section": "Expense Ratio",
+      "fact_key": "expense_ratio",
+      "text": "The expense ratio of HDFC Defence Fund Direct Growth is 0.89% as shown on the Groww scheme page."
+    },
+    {
+      "page_or_section": "Exit Load",
+      "fact_key": "exit_load",
+      "text": "Exit load for HDFC Defence Fund Direct Growth: Exit load of 1%, if redeemed within 1 year.."
+    },
+    {
+      "page_or_section": "Minimum SIP",
+      "fact_key": "min_sip",
+      "text": "The minimum SIP amount for HDFC Defence Fund Direct Growth is ₹100."
+    },
+    {
+      "page_or_section": "Riskometer",
+      "fact_key": "riskometer",
+      "text": "The riskometer / risk level for HDFC Defence Fund Direct Growth is Very High."
+    },
+    {
+      "page_or_section": "Benchmark",
+      "fact_key": "benchmark",
+      "text": "The fund benchmark for HDFC Defence Fund Direct Growth is Nifty India Defence Total Return Index."
+    },
+    {
+      "page_or_section": "Investment Objective",
+      "fact_key": "investment_objective",
+      "text": "Investment objective of HDFC Defence Fund Direct Growth: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related securities of Defence & allied sector companies."
+    }
+  ],
+  "normalized_text": "HDFC Defence Fund Direct Growth\n\nExpense ratio: 0.89%\nExit load: Exit load of 1%, if redeemed within 1 year.\nMinimum SIP: ₹100\nRiskometer: Very High\nBenchmark: Nifty India Defence Total Return Index\n\nInvestment objective: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related securities of Defence & allied sector companies.\n\nThe expense ratio of HDFC Defence Fund Direct Growth is 0.89% as shown on the Groww scheme page.\nExit load for HDFC Defence Fund Direct Growth: Exit load of 1%, if redeemed within 1 year..\nThe minimum SIP amount for HDFC Defence Fund Direct Growth is ₹100.\nThe riskometer / risk level for HDFC Defence Fund Direct Growth is Very High.\nThe fund benchmark for HDFC Defence Fund Direct Growth is Nifty India Defence Total Return Index.\nInvestment objective of HDFC Defence Fund Direct Growth: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related securities of Defence & allied sector companies.",
+  "parse_source": "next_data"
+}
