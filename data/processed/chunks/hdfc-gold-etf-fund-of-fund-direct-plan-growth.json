@@ -12,8 +12,8 @@
     "page_or_section": "Expense Ratio",
     "fact_key": "expense_ratio",
     "content_hash": "sha256:06ba71e61fc3c2afc791e69081650b334e11bcd50a638c43e9c810c588083616",
-    "document_date": "2026-08-28",
-    "ingested_at": "2026-08-29T06:56:52+00:00",
+    "document_date": "2026-09-04",
+    "ingested_at": "2026-09-05T08:31:17+00:00",
     "part_index": 0,
     "part_count": 1
   },
@@ -30,8 +30,8 @@
     "page_or_section": "Exit Load",
     "fact_key": "exit_load",
     "content_hash": "sha256:2efda09fcdec9d05f0a9a19b4d361ca5fb8cbd5a4e94ec15f38f38dba9b4fd6f",
-    "document_date": "2026-08-28",
-    "ingested_at": "2026-08-29T06:56:52+00:00",
+    "document_date": "2026-09-04",
+    "ingested_at": "2026-09-05T08:31:17+00:00",
     "part_index": 0,
     "part_count": 1
   },
@@ -48,8 +48,8 @@
     "page_or_section": "Minimum SIP",
     "fact_key": "min_sip",
     "content_hash": "sha256:604e891717ceb3540d9bde77845fe7230b8dde066f1a42cb38b30e92ce7560c0",
-    "document_date": "2026-08-28",
-    "ingested_at": "2026-08-29T06:56:52+00:00",
+    "document_date": "2026-09-04",
+    "ingested_at": "2026-09-05T08:31:17+00:00",
     "part_index": 0,
     "part_count": 1
   },
@@ -66,8 +66,8 @@
     "page_or_section": "Riskometer",
     "fact_key": "riskometer",
     "content_hash": "sha256:046eeb4bd5b51d614c720c5113cb4c297bcf3e9069c8399cddb964bbec282ee3",
-    "document_date": "2026-08-28",
-    "ingested_at": "2026-08-29T06:56:52+00:00",
+    "document_date": "2026-09-04",
+    "ingested_at": "2026-09-05T08:31:17+00:00",
     "part_index": 0,
     "part_count": 1
   },
@@ -84,8 +84,8 @@
     "page_or_section": "Benchmark",
     "fact_key": "benchmark",
     "content_hash": "sha256:464059f3a8dd97fa614d37fdc0e29e0a72327697ada2f5c50ef3b600d68338d4",
-    "document_date": "2026-08-28",
-    "ingested_at": "2026-08-29T06:56:52+00:00",
+    "document_date": "2026-09-04",
+    "ingested_at": "2026-09-05T08:31:17+00:00",
     "part_index": 0,
     "part_count": 1
   },
@@ -102,8 +102,8 @@
     "page_or_section": "Investment Objective",
     "fact_key": "investment_objective",
     "content_hash": "sha256:84cb9b1cbdbdf2ccd4dc5efcc6fd3000f5d2ecc3142252bdfe48f7397c131113",
-    "document_date": "2026-08-28",
-    "ingested_at": "2026-08-29T06:56:52+00:00",
+    "document_date": "2026-09-04",
+    "ingested_at": "2026-09-05T08:31:17+00:00",
     "part_index": 0,
     "part_count": 1
   }

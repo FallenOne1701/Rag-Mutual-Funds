@@ -1,6 +1,6 @@
 {
-  "indexed_at": "2026-08-29T06:57:22+00:00",
-  "index_dir": "C:\\Users\\dhruv\\OneDrive\\Desktop\\RAG Chat bot- Mutual Funds\\data\\index",
+  "indexed_at": "2026-09-05T08:31:35+00:00",
+  "index_dir": "/home/runner/work/Rag-Mutual-Funds/Rag-Mutual-Funds/data/index",
   "collection_name": "mf_faq_chunks",
   "embedding_model": "BAAI/bge-small-en-v1.5",
   "expected_scheme_count": 15,

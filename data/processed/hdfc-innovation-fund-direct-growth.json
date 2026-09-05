@@ -6,11 +6,11 @@
   "source_url": "https://groww.in/mutual-funds/hdfc-innovation-fund-direct-growth",
   "source_domain": "groww.in",
   "document_type": "groww_scheme_page",
-  "document_date": "2026-08-28",
-  "ingested_at": "2026-08-29T06:57:00+00:00",
-  "content_hash": "sha256:f281bb07d0076d16e454b992a3b7a2a02904ff4f6b3a602c3ac28294c8e99770",
+  "document_date": "2026-09-04",
+  "ingested_at": "2026-09-05T08:31:24+00:00",
+  "content_hash": "sha256:e7e4f22ab0e468e970491f599bca289bb479b60a8a293930ebf6e0d4dd2bcc24",
   "facts": {
-    "expense_ratio": "0.98%",
+    "expense_ratio": "0.97%",
     "exit_load": "Exit load of 1%, if redeemed within 1 month.",
     "min_sip": "₹100",
     "riskometer": "Very High",
@@ -24,7 +24,7 @@
     {
       "page_or_section": "Expense Ratio",
       "fact_key": "expense_ratio",
-      "text": "The expense ratio of HDFC Innovation Fund Direct Growth is 0.98% as shown on the Groww scheme page."
+      "text": "The expense ratio of HDFC Innovation Fund Direct Growth is 0.97% as shown on the Groww scheme page."
     },
     {
       "page_or_section": "Exit Load",
@@ -52,6 +52,6 @@
       "text": "Investment objective of HDFC Innovation Fund Direct Growth: The scheme seeks to generate long-term capital appreciation / income by investing in companies that are adopting innovative themes and strategies. There is no assurance that the investment objective of the scheme will be achieved."
     }
   ],
-  "normalized_text": "HDFC Innovation Fund Direct Growth\n\nExpense ratio: 0.98%\nExit load: Exit load of 1%, if redeemed within 1 month.\nMinimum SIP: ₹100\nRiskometer: Very High\nBenchmark: NIFTY 500 Total Return Index\n\nInvestment objective: The scheme seeks to generate long-term capital appreciation / income by investing in companies that are adopting innovative themes and strategies. There is no assurance that the investment objective of the scheme will be achieved.\n\nThe expense ratio of HDFC Innovation Fund Direct Growth is 0.98% as shown on the Groww scheme page.\nExit load for HDFC Innovation Fund Direct Growth: Exit load of 1%, if redeemed within 1 month..\nThe minimum SIP amount for HDFC Innovation Fund Direct Growth is ₹100.\nThe riskometer / risk level for HDFC Innovation Fund Direct Growth is Very High.\nThe fund benchmark for HDFC Innovation Fund Direct Growth is NIFTY 500 Total Return Index.\nInvestment objective of HDFC Innovation Fund Direct Growth: The scheme seeks to generate long-term capital appreciation / income by investing in companies that are adopting innovative themes and strategies. There is no assurance that the investment objective of the scheme will be achieved.",
+  "normalized_text": "HDFC Innovation Fund Direct Growth\n\nExpense ratio: 0.97%\nExit load: Exit load of 1%, if redeemed within 1 month.\nMinimum SIP: ₹100\nRiskometer: Very High\nBenchmark: NIFTY 500 Total Return Index\n\nInvestment objective: The scheme seeks to generate long-term capital appreciation / income by investing in companies that are adopting innovative themes and strategies. There is no assurance that the investment objective of the scheme will be achieved.\n\nThe expense ratio of HDFC Innovation Fund Direct Growth is 0.97% as shown on the Groww scheme page.\nExit load for HDFC Innovation Fund Direct Growth: Exit load of 1%, if redeemed within 1 month..\nThe minimum SIP amount for HDFC Innovation Fund Direct Growth is ₹100.\nThe riskometer / risk level for HDFC Innovation Fund Direct Growth is Very High.\nThe fund benchmark for HDFC Innovation Fund Direct Growth is NIFTY 500 Total Return Index.\nInvestment objective of HDFC Innovation Fund Direct Growth: The scheme seeks to generate long-term capital appreciation / income by investing in companies that are adopting innovative themes and strategies. There is no assurance that the investment objective of the scheme will be achieved.",
   "parse_source": "next_data"
 }
