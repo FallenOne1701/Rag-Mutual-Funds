@@ -6,11 +6,11 @@
   "source_url": "https://groww.in/mutual-funds/hdfc-banking-financial-services-fund-direct-growth",
   "source_domain": "groww.in",
   "document_type": "groww_scheme_page",
-  "document_date": "2026-08-28",
-  "ingested_at": "2026-08-29T06:57:01+00:00",
-  "content_hash": "sha256:d4d75cee35855212dfdc3d036de49920db0ecf92f007cfd4333f7086f9ee0211",
+  "document_date": "2026-09-11",
+  "ingested_at": "2026-09-15T09:35:17+00:00",
+  "content_hash": "sha256:d41043bc5957905c7903353d63c9d78e6c7b72878b2fd006190079261bd70368",
   "facts": {
-    "expense_ratio": "0.96%",
+    "expense_ratio": "0.97%",
     "exit_load": "Exit load of 1%, if redeemed within 30 days.",
     "min_sip": "₹100",
     "riskometer": "Very High",
@@ -24,7 +24,7 @@
     {
       "page_or_section": "Expense Ratio",
       "fact_key": "expense_ratio",
-      "text": "The expense ratio of HDFC Banking & Financial Services Fund Direct Growth is 0.96% as shown on the Groww scheme page."
+      "text": "The expense ratio of HDFC Banking & Financial Services Fund Direct Growth is 0.97% as shown on the Groww scheme page."
     },
     {
       "page_or_section": "Exit Load",
@@ -52,6 +52,6 @@
       "text": "Investment objective of HDFC Banking & Financial Services Fund Direct Growth: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related instruments of companies engaged in banking and financial services."
     }
   ],
-  "normalized_text": "HDFC Banking & Financial Services Fund Direct Growth\n\nExpense ratio: 0.96%\nExit load: Exit load of 1%, if redeemed within 30 days.\nMinimum SIP: ₹100\nRiskometer: Very High\nBenchmark: NIFTY Financial Services Total Return Index\n\nInvestment objective: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related instruments of companies engaged in banking and financial services.\n\nThe expense ratio of HDFC Banking & Financial Services Fund Direct Growth is 0.96% as shown on the Groww scheme page.\nExit load for HDFC Banking & Financial Services Fund Direct Growth: Exit load of 1%, if redeemed within 30 days..\nThe minimum SIP amount for HDFC Banking & Financial Services Fund Direct Growth is ₹100.\nThe riskometer / risk level for HDFC Banking & Financial Services Fund Direct Growth is Very High.\nThe fund benchmark for HDFC Banking & Financial Services Fund Direct Growth is NIFTY Financial Services Total Return Index.\nInvestment objective of HDFC Banking & Financial Services Fund Direct Growth: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related instruments of companies engaged in banking and financial services.",
+  "normalized_text": "HDFC Banking & Financial Services Fund Direct Growth\n\nExpense ratio: 0.97%\nExit load: Exit load of 1%, if redeemed within 30 days.\nMinimum SIP: ₹100\nRiskometer: Very High\nBenchmark: NIFTY Financial Services Total Return Index\n\nInvestment objective: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related instruments of companies engaged in banking and financial services.\n\nThe expense ratio of HDFC Banking & Financial Services Fund Direct Growth is 0.97% as shown on the Groww scheme page.\nExit load for HDFC Banking & Financial Services Fund Direct Growth: Exit load of 1%, if redeemed within 30 days..\nThe minimum SIP amount for HDFC Banking & Financial Services Fund Direct Growth is ₹100.\nThe riskometer / risk level for HDFC Banking & Financial Services Fund Direct Growth is Very High.\nThe fund benchmark for HDFC Banking & Financial Services Fund Direct Growth is NIFTY Financial Services Total Return Index.\nInvestment objective of HDFC Banking & Financial Services Fund Direct Growth: The scheme seeks to provide long-term capital appreciation by investing predominantly in equity and equity related instruments of companies engaged in banking and financial services.",
   "parse_source": "next_data"
 }
