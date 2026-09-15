@@ -6,11 +6,11 @@
   "source_url": "https://groww.in/mutual-funds/hdfc-focused-fund-direct-growth",
   "source_domain": "groww.in",
   "document_type": "groww_scheme_page",
-  "document_date": "2026-08-28",
-  "ingested_at": "2026-08-29T06:56:59+00:00",
-  "content_hash": "sha256:a67c0e151ec43f97510fe2dad7fd23473ce31aa29ee81c0adc23587622930e30",
+  "document_date": "2026-09-11",
+  "ingested_at": "2026-09-15T09:35:14+00:00",
+  "content_hash": "sha256:05b78c779b8808eb9cdfc6675113e2c0f241878e31d6d9ae267ff20aab8a7ce6",
   "facts": {
-    "expense_ratio": "0.8%",
+    "expense_ratio": "0.81%",
     "exit_load": "Exit load of 1% if redeemed within 1 year",
     "min_sip": "₹100",
     "riskometer": "Very High",
@@ -24,7 +24,7 @@
     {
       "page_or_section": "Expense Ratio",
       "fact_key": "expense_ratio",
-      "text": "The expense ratio of HDFC Focused Fund Direct Growth is 0.8% as shown on the Groww scheme page."
+      "text": "The expense ratio of HDFC Focused Fund Direct Growth is 0.81% as shown on the Groww scheme page."
     },
     {
       "page_or_section": "Exit Load",
@@ -52,6 +52,6 @@
       "text": "Investment objective of HDFC Focused Fund Direct Growth: The scheme seeks to generate long term capital appreciation/income by investing in equity & equity related instruments of up to 30 companies."
     }
   ],
-  "normalized_text": "HDFC Focused Fund Direct Growth\n\nExpense ratio: 0.8%\nExit load: Exit load of 1% if redeemed within 1 year\nMinimum SIP: ₹100\nRiskometer: Very High\nBenchmark: NIFTY 500 Total Return Index\n\nInvestment objective: The scheme seeks to generate long term capital appreciation/income by investing in equity & equity related instruments of up to 30 companies.\n\nThe expense ratio of HDFC Focused Fund Direct Growth is 0.8% as shown on the Groww scheme page.\nExit load for HDFC Focused Fund Direct Growth: Exit load of 1% if redeemed within 1 year.\nThe minimum SIP amount for HDFC Focused Fund Direct Growth is ₹100.\nThe riskometer / risk level for HDFC Focused Fund Direct Growth is Very High.\nThe fund benchmark for HDFC Focused Fund Direct Growth is NIFTY 500 Total Return Index.\nInvestment objective of HDFC Focused Fund Direct Growth: The scheme seeks to generate long term capital appreciation/income by investing in equity & equity related instruments of up to 30 companies.",
+  "normalized_text": "HDFC Focused Fund Direct Growth\n\nExpense ratio: 0.81%\nExit load: Exit load of 1% if redeemed within 1 year\nMinimum SIP: ₹100\nRiskometer: Very High\nBenchmark: NIFTY 500 Total Return Index\n\nInvestment objective: The scheme seeks to generate long term capital appreciation/income by investing in equity & equity related instruments of up to 30 companies.\n\nThe expense ratio of HDFC Focused Fund Direct Growth is 0.81% as shown on the Groww scheme page.\nExit load for HDFC Focused Fund Direct Growth: Exit load of 1% if redeemed within 1 year.\nThe minimum SIP amount for HDFC Focused Fund Direct Growth is ₹100.\nThe riskometer / risk level for HDFC Focused Fund Direct Growth is Very High.\nThe fund benchmark for HDFC Focused Fund Direct Growth is NIFTY 500 Total Return Index.\nInvestment objective of HDFC Focused Fund Direct Growth: The scheme seeks to generate long term capital appreciation/income by investing in equity & equity related instruments of up to 30 companies.",
   "parse_source": "next_data"
 }

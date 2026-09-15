@@ -6,11 +6,11 @@
   "source_url": "https://groww.in/mutual-funds/hdfc-medium-to-long-term-fund-direct-growth",
   "source_domain": "groww.in",
   "document_type": "groww_scheme_page",
-  "document_date": "2026-08-28",
-  "ingested_at": "2026-08-29T06:57:06+00:00",
-  "content_hash": "sha256:98e677ef5f497d9af3bde8552bc8c52514e3dd9bd7b79434d5e4ea1ae1f73549",
+  "document_date": "2026-09-11",
+  "ingested_at": "2026-09-15T09:35:24+00:00",
+  "content_hash": "sha256:e9849dcc86a2a303fcd49b2342c4c9903133f5438be5bc43535a13fc344618c7",
   "facts": {
-    "expense_ratio": "0.81%",
+    "expense_ratio": "0.8%",
     "exit_load": "Nil",
     "min_sip": "₹100",
     "riskometer": "Moderate",
@@ -24,7 +24,7 @@
     {
       "page_or_section": "Expense Ratio",
       "fact_key": "expense_ratio",
-      "text": "The expense ratio of HDFC Medium to Long Term Fund Direct Growth is 0.81% as shown on the Groww scheme page."
+      "text": "The expense ratio of HDFC Medium to Long Term Fund Direct Growth is 0.8% as shown on the Groww scheme page."
     },
     {
       "page_or_section": "Exit Load",
@@ -52,6 +52,6 @@
       "text": "Investment objective of HDFC Medium to Long Term Fund Direct Growth: The scheme seeks to generate income / capital appreciation through investments in debt and money market instruments."
     }
   ],
-  "normalized_text": "HDFC Medium to Long Term Fund Direct Growth\n\nExpense ratio: 0.81%\nExit load: Nil\nMinimum SIP: ₹100\nRiskometer: Moderate\nBenchmark: CRISIL Medium to Long Duration Debt A-III Index\n\nInvestment objective: The scheme seeks to generate income / capital appreciation through investments in debt and money market instruments.\n\nThe expense ratio of HDFC Medium to Long Term Fund Direct Growth is 0.81% as shown on the Groww scheme page.\nExit load for HDFC Medium to Long Term Fund Direct Growth: Nil.\nThe minimum SIP amount for HDFC Medium to Long Term Fund Direct Growth is ₹100.\nThe riskometer / risk level for HDFC Medium to Long Term Fund Direct Growth is Moderate.\nThe fund benchmark for HDFC Medium to Long Term Fund Direct Growth is CRISIL Medium to Long Duration Debt A-III Index.\nInvestment objective of HDFC Medium to Long Term Fund Direct Growth: The scheme seeks to generate income / capital appreciation through investments in debt and money market instruments.",
+  "normalized_text": "HDFC Medium to Long Term Fund Direct Growth\n\nExpense ratio: 0.8%\nExit load: Nil\nMinimum SIP: ₹100\nRiskometer: Moderate\nBenchmark: CRISIL Medium to Long Duration Debt A-III Index\n\nInvestment objective: The scheme seeks to generate income / capital appreciation through investments in debt and money market instruments.\n\nThe expense ratio of HDFC Medium to Long Term Fund Direct Growth is 0.8% as shown on the Groww scheme page.\nExit load for HDFC Medium to Long Term Fund Direct Growth: Nil.\nThe minimum SIP amount for HDFC Medium to Long Term Fund Direct Growth is ₹100.\nThe riskometer / risk level for HDFC Medium to Long Term Fund Direct Growth is Moderate.\nThe fund benchmark for HDFC Medium to Long Term Fund Direct Growth is CRISIL Medium to Long Duration Debt A-III Index.\nInvestment objective of HDFC Medium to Long Term Fund Direct Growth: The scheme seeks to generate income / capital appreciation through investments in debt and money market instruments.",
   "parse_source": "next_data"
 }
