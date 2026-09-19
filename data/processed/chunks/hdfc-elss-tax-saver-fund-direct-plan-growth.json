@@ -1,7 +1,7 @@
 [
   {
     "chunk_id": "hdfc-elss-tax-saver-fund-direct-plan-growth::expense_ratio",
-    "text": "The expense ratio of HDFC ELSS Tax Saver Fund Direct Plan Growth is 1.19% as shown on the Groww scheme page.",
+    "text": "The expense ratio of HDFC ELSS Tax Saver Fund Direct Plan Growth is 1.21% as shown on the Groww scheme page.",
     "scheme_id": "hdfc-elss-tax-saver-fund-direct-plan-growth",
     "scheme_name": "HDFC ELSS Tax Saver Fund Direct Plan Growth",
     "category": "ELSS",
@@ -11,9 +11,9 @@
     "source_domain": "groww.in",
     "page_or_section": "Expense Ratio",
     "fact_key": "expense_ratio",
-    "content_hash": "sha256:73e15b4d8ef959e407b832fe7a78f94a83afcb76caa8e84ed8cb6eb135640432",
-    "document_date": "2026-08-28",
-    "ingested_at": "2026-08-29T06:56:55+00:00",
+    "content_hash": "sha256:ed8f3d34a39f87dd0aa197744da1e5951e0155d3807d5d9ea5cce297cae678fa",
+    "document_date": "2026-09-18",
+    "ingested_at": "2026-09-19T08:55:47+00:00",
     "part_index": 0,
     "part_count": 1
   },
@@ -30,8 +30,8 @@
     "page_or_section": "Exit Load",
     "fact_key": "exit_load",
     "content_hash": "sha256:d562016a18522fd3725314734e3e658060a701e3c0edb8cd5bc4bb87217ab24b",
-    "document_date": "2026-08-28",
-    "ingested_at": "2026-08-29T06:56:55+00:00",
+    "document_date": "2026-09-18",
+    "ingested_at": "2026-09-19T08:55:47+00:00",
     "part_index": 0,
     "part_count": 1
   },
@@ -48,8 +48,8 @@
     "page_or_section": "Minimum SIP",
     "fact_key": "min_sip",
     "content_hash": "sha256:bbd7a7ea1f26f68210565a2414da594d489b8f18385cbcc56969aee992be1a56",
-    "document_date": "2026-08-28",
-    "ingested_at": "2026-08-29T06:56:55+00:00",
+    "document_date": "2026-09-18",
+    "ingested_at": "2026-09-19T08:55:47+00:00",
     "part_index": 0,
     "part_count": 1
   },
@@ -66,8 +66,8 @@
     "page_or_section": "Riskometer",
     "fact_key": "riskometer",
     "content_hash": "sha256:768d184f3e8e836bd2533bc287431642a6a6c0d69fad94972a6d34855f6fbf74",
-    "document_date": "2026-08-28",
-    "ingested_at": "2026-08-29T06:56:55+00:00",
+    "document_date": "2026-09-18",
+    "ingested_at": "2026-09-19T08:55:47+00:00",
     "part_index": 0,
     "part_count": 1
   },
@@ -84,8 +84,8 @@
     "page_or_section": "Benchmark",
     "fact_key": "benchmark",
     "content_hash": "sha256:3596e798e2a8d4c9ab6c6e7b6ca512adc18a9a5acd9a92a2f29d8fbfeb790268",
-    "document_date": "2026-08-28",
-    "ingested_at": "2026-08-29T06:56:55+00:00",
+    "document_date": "2026-09-18",
+    "ingested_at": "2026-09-19T08:55:47+00:00",
     "part_index": 0,
     "part_count": 1
   },
@@ -102,8 +102,8 @@
     "page_or_section": "Lock-in",
     "fact_key": "lock_in",
     "content_hash": "sha256:b2053f265522fd890a727a06686467bdff84c3a559d980ee5888dba418190c17",
-    "document_date": "2026-08-28",
-    "ingested_at": "2026-08-29T06:56:55+00:00",
+    "document_date": "2026-09-18",
+    "ingested_at": "2026-09-19T08:55:47+00:00",
     "part_index": 0,
     "part_count": 1
   },
@@ -120,8 +120,8 @@
     "page_or_section": "Investment Objective",
     "fact_key": "investment_objective",
     "content_hash": "sha256:d936fbee48677e2fdd89483df3924575b2f58d484bf62bdce90d6913cd9580b5",
-    "document_date": "2026-08-28",
-    "ingested_at": "2026-08-29T06:56:55+00:00",
+    "document_date": "2026-09-18",
+    "ingested_at": "2026-09-19T08:55:47+00:00",
     "part_index": 0,
     "part_count": 1
   }
