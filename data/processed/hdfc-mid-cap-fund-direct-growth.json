@@ -6,9 +6,9 @@
   "source_url": "https://groww.in/mutual-funds/hdfc-mid-cap-fund-direct-growth",
   "source_domain": "groww.in",
   "document_type": "groww_scheme_page",
-  "document_date": "2026-08-28",
-  "ingested_at": "2026-08-29T06:56:50+00:00",
-  "content_hash": "sha256:f29fb2136bf37d6c6de04f55fa2e5ddad0cf4fe9c788b90c08edff8544f5d151",
+  "document_date": "2026-10-23",
+  "ingested_at": "2026-10-24T09:02:11+00:00",
+  "content_hash": "sha256:3fbe8edc1f955b7d542e99b7dc1460e4165b7af2fa0c7537f3f1512e100c68a9",
   "facts": {
     "expense_ratio": "0.74%",
     "exit_load": "Exit load of 1% if redeemed within 1 year.",
